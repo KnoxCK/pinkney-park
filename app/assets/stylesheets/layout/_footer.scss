@@ -1,1 +1,12 @@
 // Your footer style
+.footer {
+	background-color: #1F363D;
+	z-index: 10000 !important;
+	position: relative;
+}
+.footer-main {
+	display: flex;
+	justify-content: space-between;
+	height: 40vh;
+	margin-top: 0px;
+}

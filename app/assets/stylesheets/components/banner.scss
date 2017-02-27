@@ -1,0 +1,27 @@
+.banner {
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1487867526/PinkneyPark_Landing_Image_i8qd9k.png');
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover !important;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 10px;
+  }
+  a {
+    padding: 15px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+  }
+}

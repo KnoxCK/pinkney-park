@@ -2,3 +2,63 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+.welcome-text {
+	padding-right: 55px;
+	padding-left: 55px;
+	h2 {
+		padding-bottom: 30px;
+	}
+}
+.green-line {
+	border-top: #EAF0EE 25px solid;
+}
+.landing-boxes {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+.landing-box {
+	margin: 10px;
+}
+.landing-box-image img {
+	width: 30vw;
+	position: relative;
+}
+.landing-box-text {
+	background-color: white;
+	padding: 40px;
+    border: #DDDDDD 0.25px solid;
+    border-top-style: none;
+    bottom: -124px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    z-index: 100;
+}
+.landing-box-text:hover {
+	background-color: #BACEC7;
+	border-style: none;
+} 
+.landing-box-row-1 img {
+	margin-top: -80px;
+}
+.landing-box-border {
+  border: #EAF0EE 2px solid;
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  z-index: 5;
+}
+.landing-wrapper {
+	background-color: #EAF0EE;
+	margin-top: 50px;
+	margin-bottom: -100px;
+}
+.about {
+	background-color: white;
+    width: 100%;
+    padding-top: 100px;
+}
