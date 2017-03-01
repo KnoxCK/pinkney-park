@@ -1,16 +1,15 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
-.welcome-text {
+.intro-text {
 	padding-right: 55px;
 	padding-left: 55px;
 	h2 {
 		padding-bottom: 30px;
 	}
+	p {
+		color: #395B5B;
+	}
 }
 .green-line {
-	border-top: #EAF0EE 25px solid;
+	border-top: #EAF0EE 40px solid;
 }
 .landing-boxes {
 	display: flex;
@@ -22,7 +21,7 @@
 	margin: 10px;
 }
 .landing-box-image img {
-	width: 30vw;
+	width: 28vw;
 	position: relative;
 }
 .landing-box-text {
@@ -35,6 +34,7 @@
     right: 0;
     justify-content: center;
     z-index: 100;
+    width: 28vw;
 }
 .landing-box-text:hover {
 	background-color: #BACEC7;
