@@ -1,0 +1,27 @@
+.properties-boxes {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.properties-boxes img {
+	width: 40vw;
+  height: 40vh;
+  padding: 10px;
+}
+.properties-wrapper {
+  background-color: #EAF0EE;
+  padding: 40px 0;
+}
+.property-text {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.properties-border hr {
+  margin-top: -2px;
+  border-top: 2px solid #EAF0EE;
+}
+.properties-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

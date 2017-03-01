@@ -56,3 +56,60 @@
     color: #395B5B;
     border: #D5E2DE 1px solid;
 }
+.properties-button-active {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 25px 40px 19px 40px;
+    font-size: 12px;
+    line-height: 1.4;
+    border-radius: 2px;
+    margin: 35px 6px 0 6px;
+    text-decoration: none;
+    color: #395B5B;
+    background-color: white;
+    border: #EAF0EE 2px solid;
+    border-bottom-color: white;
+    letter-spacing: 1px;
+}
+.properties-button-active:hover {
+    text-decoration: none;
+    color: #395B5B;
+}
+.properties-button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 25px 40px 22px 40px;
+    font-size: 12px;
+    line-height: 1.4;
+    border-radius: 2px;
+    margin: 35px 6px 0 6px;
+    text-decoration: none;
+    color: #395B5B;
+    background-color: #EAF0EE;
+    border: #EAF0EE 2px solid;
+    border-bottom: transparent;
+    border-top: transparent;
+    letter-spacing: 1px;
+}
+.properties-button:hover {
+    text-decoration: none;
+    color: #395B5B;
+    text-decoration: underline;
+
+}
