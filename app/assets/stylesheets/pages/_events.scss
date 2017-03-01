@@ -1,0 +1,114 @@
+.events-para {
+	padding-bottom: 1em;
+}
+.events-wrapper {
+	background-color: #EAF0EE;
+	margin-left: 144px;
+	padding-bottom: 4px;
+}
+
+//ACTIVITIES
+.activity-days {
+	display: flex;
+	z-index: 100;
+	margin-left: -74px;
+	position: relative;
+	padding-top: 70px;
+}
+.activity-days-box {
+	padding: 70px;
+	background-color: white;
+    width: 100vw;
+    margin-top: -26px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    p {
+    	padding-top: 20px;
+    	color: #395B5B;
+    }
+}
+.activity-days-collage {
+	position: relative;
+}
+.activity-image {
+	width: 22vw;
+	height: 200px;
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+    padding-right: 2px;
+}
+.activity-image-last {
+	width: 44.2vw;
+    padding-right: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 274px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+//Filming & Photo Shoots
+.filming-photoshoots {
+	display: flex;
+	margin-left: -63px;
+}
+.filming-photoshoots-box {
+	padding: 40px;
+    background-color: white;
+    width: 32vw;
+    height: 244px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    p {
+    	padding-top: 20px;
+    	color: #395B5B;
+    }
+}
+.filming-photoshoots-image {
+	width: 27vw;
+    height: 244px;
+    margin-left: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+//Cricket 
+.cricket-image {
+	background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1487867526/PinkneyPark_Landing_Image_i8qd9k.png');
+	width: 86.3vw;
+	margin-left: -57px;
+	color: black;
+	text-align: center;
+	height: 70vh;
+	background-size: cover !important;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.cricket-content {
+	padding: 35px 60px;
+	z-index: 1000;
+	p {
+		padding-top: 20px;
+		color: #395B5B;
+	}
+}
+.cricket-box {
+	background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    left: 250px;
+    right: 250px;
+    height: 240px;
+    z-index: 50;
+    border: #dddddd 1px solid;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.cricket-collage {
+	position: relative;
+    bottom: -4px;
+    right: 0px;
+    left: -57px;
+}
+.cricket-collage-image {
+	width: 28.58vw;
+	padding-right: 1px;
+	flex-wrap: nowrap;
+}

@@ -1,13 +1,13 @@
 <div class="navbar-pinkneypark-main navbar-pinkneypark-main-fixed hidden-xs hidden-sm">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-pinkneypark-main-brand" do %>
-    <%= image_tag "logo_small_bl.png" %>
-  <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-pinkneypark-main-right">
 
 <!-- Navbar menu -->
+    <!-- Home link -->
+    <div class="navbar-link">
+      <%= link_to "Home", root_path, class: "navbar-pinkneypark-main-link" %>
+    </div>
     <!-- Stay link -->
     <div class="navbar-link">
       <%= link_to "Private & Corporate Events", events_path, class: "navbar-pinkneypark-main-link" %>

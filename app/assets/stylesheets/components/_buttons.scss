@@ -13,7 +13,7 @@
     font-size: 16px;
     line-height: 1.4;
     border-radius: 2px;
-
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.3);
     border: white 1px solid;
     padding: 10px;
     margin: 50px 20px;
@@ -25,4 +25,34 @@
     background-color: transparent;
     text-decoration: none;
     color: white;
+}
+.events-button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.4;
+    border-radius: 2px;
+
+    padding: 10px;
+    margin: 50px 6px;
+    text-decoration: none;
+    color: #395B5B;
+    background-color: transparent;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
+    border: #395B5B 1px solid;
+}
+.events-button:hover {
+    background-color: #D5E2DE;
+    text-decoration: none;
+    color: #395B5B;
+    border: #D5E2DE 1px solid;
 }

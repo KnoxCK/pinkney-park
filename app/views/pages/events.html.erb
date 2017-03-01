@@ -1,12 +1,75 @@
 <%= render 'shared/navbar_main' %> 
-<div class="banner-small">
+<div class="banner-main">
 </div>
 
 <div class="green-line"></div>
-<div class="intro-text text-center padded container">
+<div class="intro-text text-center events-para padded container">
 	<h2>Private and Corporate Events</h2>
 	<p>Pinkney Park offers facilities for parties, weddings, meetings, conferences and training courses. We have two large rooms (20ft x 40ft and 30ft x 15ft) and plenty of space for marquees.
 	<br></br>
 	Catering can be tailored for all individual needs. We can vary the menus from summer pool or riverside barbeques to five course dinners.
 	</p>
+	<div class="events-buttons">
+		<%= link_to "ACTIVITY DAYS", "", class: "events-button" %>
+		<%= link_to "FILMING & PHOTOSHOOTS", "", class: "events-button" %>
+		<%= link_to "CRICKET PITCH", "", class: "events-button" %>
+	</div>
 </div>
+<div class="banner-small">
+</div>
+<div class="events-wrapper">
+	<div class="activity-days container">
+		<div class="activity-days-box text-center">
+			<h4>Activity Days</h4>
+			<p>The 150 acres of rolling parkland and woodland provide an excellent venue for many types of entertainment. We hold many outdoor “activity days” when specialist companies bring a wide variety of sports and pastimes. 
+			<br></br>
+			These activities include:
+			<br></br>
+			Clay Pigeon Shooting<br>
+			Go Karting<br>
+			Hover Crafting<br>
+			Air Rifle Shooting<br>
+			Archery<br>
+			Hot Air Ballooning<br>
+			Falconry<br>
+			Company Family Days<br>
+			Product Launches<br>
+			Training Days and many more...
+			<br></br>
+			Also available are croquet, an outdoor heated swimming pool and tennis court, which can provide a half-day's relaxation after a meeting or conference. There is also plenty of space for marquees and parking.
+	 		</p>
+		</div>
+		<div class="activity-days-collage">
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image") %>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image") %>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image") %>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image") %>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image") %>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image") %>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "activity-image-last") %>
+		</div>
+	</div>
+	<div class="filming-photoshoots padded">
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "filming-photoshoots-image") %>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "filming-photoshoots-image") %>
+		<div class="filming-photoshoots-box text-center">
+			<h4>Filming & Photoshoots</h4>
+			<p>The stunning gardens, grounds, walled garden, tree lined carriage drive, river and historic Cotswold properties make for an ideal location for photo shoots and filming.</p>
+		</div>
+	</div>
+	<div class="cricket-image">
+		<div class="cricket-content">
+		    <h4>Cricket Pitch</h4>
+		    <p>We have a private cricket ground available for hire. There is a well-appointed <br>pavilion with showers and loos, 2 practice nets, sight screens, covers and a roller. 
+			<br></br>
+			The pitch is the ideal venue for private, inter office or company matches.</p>
+		</div>
+		<div class="cricket-box"></div>
+	</div>
+	<div class="cricket-collage">
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "cricket-collage-image") %>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "cricket-collage-image") %>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png", class: "cricket-collage-image") %>
+	</div>
+</div>
+<%= render 'shared/please_call' %>

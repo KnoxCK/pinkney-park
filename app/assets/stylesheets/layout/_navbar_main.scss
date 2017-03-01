@@ -8,6 +8,8 @@
   background-color: #D5E2DE;
   background: #D5E2DE;
   border-color: #D5E2DE;
+  max-width: 100%;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.3);
 }
 #navbar-background {
   background-color: black;
@@ -37,7 +39,7 @@
   justify-content: space-between;
 }
 .navbar-pinkneypark-main-link {
-  color: black;
+  color: #395B5B;
   font-size: 14px;
   padding: 0 25px;
   font-weight: lighter;
