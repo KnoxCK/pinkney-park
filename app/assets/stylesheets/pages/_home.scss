@@ -62,3 +62,43 @@
     width: 100%;
     padding-top: 100px;
 }
+.about-wrapper {
+	background-color: #EAF0EE;
+	padding: 70px 0;
+}
+.about-boxes {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 60px;
+}
+.about-box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
+	padding: 60px 0 0 0;
+	height: 45vh;
+	width: 40vw;
+	border-top: #dddddd 0.15px solid;
+	h2 {
+	    padding-top: 30px;
+	}
+	p {
+		padding: 30px 50px 0 50px;
+		color: #395B5B;
+	}
+	span {
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.about-image {
+	height: 45vh;
+	width: 40vw;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
+}
+

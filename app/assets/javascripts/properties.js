@@ -9,5 +9,3 @@ $(document).on('click', '.residential-button', function(e) {
   $(".residential-page").removeClass("hidden");
 e.preventDefault();
 });
-
-

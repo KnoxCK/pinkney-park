@@ -30,33 +30,29 @@
 
 <!-- Navbar appearing on scroll -->
 <div class="navbar-pinkneypark-scroll navbar-pinkneypark-fixed hidden hidden-xs hidden-sm">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-pinkneypark-brand" do %>
-    <%= image_tag "" %>
-  <% end %>
 
   <!-- Right Navigation -->
-  <div class="navbar-pinkneypark-right">
+  <div class="navbar-pinkneypark-main-right">
   <!-- Navbar menu -->
     <!-- About link -->
     <div class="outline">
-      <%= link_to "PRIVATE & CORPORATE EVENTS", events_path, class: "navbar-pinkneypark-link" %>
+      <%= link_to "Private & Corporate Events", events_path, class: "navbar-pinkneypark-link-scroll" %>
     </div>
     <!-- Events link -->
     <div class="navbar-link">
-      <%= link_to "ACCOMMODATION", stay_path, class: "navbar-pinkneypark-link" %>
+      <%= link_to "Accommodation", stay_path, class: "navbar-pinkneypark-link-scroll" %>
     </div>
       <!-- Properties  link -->
     <div class="navbar-link">
-      <%= link_to "PROPERTIES", properties_path, class: "navbar-pinkneypark-link" %>
+      <%= link_to "Properties", properties_path, class: "navbar-pinkneypark-link-scroll" %>
     </div>
       <!-- Area link -->
     <div class="navbar-link">
-      <%= link_to "THE AREA", local_area_path, class: "navbar-pinkneypark-link" %>
+      <%= link_to "The Area", local_area_path, class: "navbar-pinkneypark-link-scroll" %>
     </div>
       <!-- Contact link -->
     <div class="navbar-link">
-      <%= link_to "CONTACT", contact_path, class: "navbar-pinkneypark-link" %>
+      <%= link_to "Contact Us", contact_path, class: "navbar-pinkneypark-link-scroll" %>
     </div>
   </div>
 </div>
