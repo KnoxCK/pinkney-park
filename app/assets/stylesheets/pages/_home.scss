@@ -6,10 +6,12 @@
 	}
 	p {
 		color: #395B5B;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 .green-line {
-	border-top: #EAF0EE 40px solid;
+	border-top: #EAF0EE 20px solid;
 }
 .landing-boxes {
 	display: flex;
@@ -37,7 +39,7 @@
     width: 28vw;
 }
 .landing-box-text:hover {
-	background-color: #BACEC7;
+	background-color: #D5E2DE;
 	border-style: none;
 } 
 .landing-box-row-1 img {

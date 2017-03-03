@@ -1,5 +1,5 @@
 .banner-landing {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1487867526/PinkneyPark_Landing_Image_i8qd9k.png');
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488489888/landing_w7eiz8.jpg');
   color: white;
   text-align: center;
   height: 100vh;
@@ -26,14 +26,36 @@
     margin-top: 80px;
   }
 }
-.banner-main {
-  background-image: url('http://res.cloudinary.com/dv9bpfme2/image/upload/v1488200557/landing-image-template_zh9lrz.png');
+.banner-prop {
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488491344/prop_bldet0.jpg');
   height: 60vh;
   width: 100%;
   background-size: cover !important;
+  background-position: center;
+}
+.banner-events {
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488491484/DSC02838_copy_hqbavd.jpg');
+  height: 60vh;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+}
+.banner-stay {
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492040/stay_wxmhc2.jpg');
+  height: 60vh;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+}
+.banner-contact {
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488494933/contact_imjln4.jpg');
+  height: 60vh;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
 }
 .banner-small {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1487867526/PinkneyPark_Landing_Image_i8qd9k.png');
+  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482519/cricket-banner_kwngc2.jpg');
   height: 40vh;
   width: 100%;
   background-size: cover !important;

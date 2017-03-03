@@ -1,5 +1,36 @@
 <div class="footer">
 	<div class="footer-main">
-		
+		<div class="row">
+			<div class="footer-logo-column">
+				<div class="col-xs-4">
+					<h2>Pinkney Park</h2>
+					<p>Copyright 2017 - All rights reserved.</p>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="footer-left-column">
+					<p><span>What's On</span></p>
+					<p><%= link_to "Private & Corporate Events", events_path %><br>
+					<%= link_to "Accommodation", stay_path %><br>
+					<%= link_to "Commercial Properties", properties_path %><br>
+					<%= link_to "Residential Properties", properties_path %><br>
+					<%= link_to "Local Area", root_path %><br>
+					<%= link_to "Location & Contact", contact_path %>
+					</p>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="footer-right-column">
+					<p><span>Contact</span></p>
+					<p>Pinkney Park<br>
+					Malmesbury<br>
+					Wiltshire SN16 0NX<br>
+					<br>
+					T: +44(0)1207 698 4833<br>
+					E: <%= link_to "info@pinkneypark.co.uk", "mailto:info@pinkneypark.co.uk" %>
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
