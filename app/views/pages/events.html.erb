@@ -10,9 +10,9 @@
 	Catering can be tailored for all individual needs. We can vary the menus from summer pool or riverside barbeques to five course dinners.
 	</p>
 	<div class="events-buttons">
-		<%= link_to "ACTIVITY DAYS", "", class: "events-button" %>
-		<%= link_to "FILMING & PHOTOSHOOTS", "", class: "events-button" %>
-		<%= link_to "CRICKET PITCH", "", class: "events-button" %>
+		<%= link_to "ACTIVITY DAYS", events_path(:anchor => "activity-days-jump"), class: "events-button" %>
+		<%= link_to "FILMING & PHOTOSHOOTS", events_path(:anchor => "filming-jump"), class: "events-button" %>
+		<%= link_to "CRICKET PITCH", events_path(:anchor => "cricket-jump"), class: "events-button" %>
 	</div>
 </div>
 <div class="banner-small">
@@ -20,7 +20,7 @@
 <div class="events-wrapper">
 
 <!-- ACTIVITY DAYS -->
-	<div class="activity-days container">
+	<div class="activity-days container" id="activity-days-jump">
 		<div class="activity-days-box text-center">
 			<h4>Activity Days</h4>
 			<p>The 150 acres of rolling parkland and woodland provide an excellent venue for many types of entertainment. We hold many outdoor “activity days” when specialist companies bring a wide variety of sports and pastimes. 
@@ -53,7 +53,7 @@
 	</div>
 
 <!-- FILMING & PHOTOSHOOTS -->
-	<div class="filming-photoshoots padded">
+	<div class="filming-photoshoots padded" id="filming-jump"">
 		<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488485305/Filming_photoshoots_mgismb.jpg", class: "filming-photoshoots-image") %>
 		<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488485094/Filming_photoshoots2_cfgh5u.jpg", class: "filming-photoshoots-image") %>
 		<div class="filming-photoshoots-box text-center">
@@ -63,7 +63,7 @@
 	</div>
 
 <!-- CRICKET SECTION -->
-	<div class="cricket-image">
+	<div class="cricket-image" id="cricket-jump">
 		<div class="cricket-content">
 		    <h4>Cricket Pitch</h4>
 		    <p>We have a private cricket ground available for hire. There is a well-appointed <br>pavilion with showers and loos, 2 practice nets, sight screens, covers and a roller. 

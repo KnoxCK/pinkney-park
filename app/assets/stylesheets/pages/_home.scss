@@ -37,11 +37,21 @@
     justify-content: center;
     z-index: 100;
     width: 28vw;
+    text-decoration: none;
 }
 .landing-box-text:hover {
 	background-color: #D5E2DE;
 	border-style: none;
-} 
+	text-decoration: none;
+}
+.landing-box-text a {
+	text-decoration: none;
+	color: #395B5B;
+}
+.landing-box-text a:hover {
+	text-decoration: none;
+	color: #395B5B;
+}
 .landing-box-row-1 img {
 	margin-top: -80px;
 }
@@ -58,6 +68,21 @@
 	background-color: #EAF0EE;
 	margin-top: 50px;
 	margin-bottom: -100px;
+}
+
+#weddings-hover-text {
+	display: none;
+}
+
+.weddings:hover {
+	#weddings-hover-text {
+		display: block;
+		margin-top: 4px;
+		margin-bottom: -6px;
+	}
+	#weddings-occasions {
+		display: none;
+	}
 }
 .about {
 	background-color: white;
@@ -83,7 +108,7 @@
 	padding: 60px 0 0 0;
 	height: 45vh;
 	width: 40vw;
-	border-top: #dddddd 0.15px solid;
+	border-top: #F6F6F6 0.15px solid;
 	h2 {
 	    padding-top: 30px;
 	}
