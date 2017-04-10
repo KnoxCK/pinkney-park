@@ -6,6 +6,7 @@
 .footer-main {
 	margin-top: 0px;
 	padding: 70px 0 50px 0;
+	display: flex;
 	span {
 		color: #97B6AC;
 		font-size: 22px;
@@ -20,21 +21,16 @@
 		color: white;
 	}
 }
-.footer-logo-column {
-	h2 {
-		padding: 26px 0 0 170px;
-		color: white;
-	}
-	p {
-		padding: 37px 0 0 170px;
-		font-size: 10px;
-	}
+.footer-left {
+	padding-left: 115px;
+    padding-top: 60px;
+    p {
+   	font-size: 10px;
+   	padding-top: 10px;
+   }
 }
-.footer-left-column {
-	padding-left: 135px;
-}
-.footer-right-column {
-	padding-left: 35px;
+.footer-middle {
+   padding: 0px 138px;
 }
 .arrow-up {
 	position: relative;
@@ -51,7 +47,4 @@
 .arrow-up a:hover {
 	color: #1F363D;
 	text-decoration: none;
-}
-.row {
-	margin-right: 0;
 }

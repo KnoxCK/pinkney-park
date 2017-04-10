@@ -3,22 +3,17 @@
 }
 .events-wrapper {
 	background-color: #EAF0EE;
-	margin-left: 144px;
-	padding-bottom: 4px;
 }
 
 //ACTIVITIES
 .activity-days {
-	display: flex;
-	z-index: 100;
-	margin-left: -74px;
-	position: relative;
+	display:flex;
 	padding-top: 70px;
 }
 .activity-days-box {
-	padding: 70px;
+	padding: 50px;
 	background-color: white;
-    width: 100vw;
+    width: 162vw;
     margin-top: -26px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     p {
@@ -32,34 +27,30 @@
 	}
 } 
 .activity-days-collage {
-	position: relative;
+	
 }
 .activity-image {
-	width: 22vw;
-	height: 200px;
-    flex-wrap: nowrap;
+	width: 22.34vw;
+	height: 25vh;
     padding-bottom: 5px;
-    padding-right: 2px;
 }
 .activity-image-last {
-	width: 44.2vw;
+	width: 45vw;
+	height: 25vh;
     padding-right: 0px;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    height: 274px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 //Filming & Photo Shoots
 .filming-photoshoots {
+	margin-top: 60px;
+	margin-bottom: 60px;
 	display: flex;
-	margin-left: -63px;
+	justify-content: center;
+	align-items:center;
 }
 .filming-photoshoots-box {
 	padding: 40px;
     background-color: white;
-    width: 32vw;
-    height: 244px;
+    width: 30vw;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     p {
     	padding-top: 20px;
@@ -72,29 +63,27 @@
 	}
 } 
 .filming-photoshoots-image {
-	width: 27vw;
-    height: 244px;
+	width: 25vw;
+    height: 36vh;
     margin-left: 5px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 //Cricket 
 .cricket-image {
 	background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482517/cricket-big_mdbt2w.jpg');
-	width: 86.3vw;
-	margin-left: -57px;
+	width: 89.1vw;
 	color: black;
 	text-align: center;
 	height: 70vh;
-	background-size: cover !important;
+	background-position: center;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 .cricket-content {
-	padding: 35px 60px;
+	padding: 35px 55px;
 	z-index: 1000;
+	background-color: white;
 	p {
 		padding-top: 20px;
 		color: #395B5B;
@@ -104,26 +93,36 @@
 	h4, p {
 		color: black;
 	}
-} 
-.cricket-box {
-	background-color: white;
-    opacity: 0.7;
-    position: absolute;
-    left: 250px;
-    right: 250px;
-    height: 240px;
-    z-index: 50;
-    border: #dddddd 1px solid;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 .cricket-collage {
-	position: relative;
-    bottom: -4px;
-    right: 0px;
-    left: -57px;
+	padding-top: 5px;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
 }
 .cricket-collage-image {
-	width: 28.58vw;
-	padding-right: 1px;
-	flex-wrap: nowrap;
+	width: 29.4vw;
+	height: 30vh;
+}
+.middle-image {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+// mobile/desktop only
+@media only screen and (max-width:962px){
+  .activity-days {
+  	padding-top: 43px;
+  	flex-wrap: wrap;
+  }
+  .activity-days-box {
+  	padding: 31px;
+  }
+  .activity-image {
+    width: 45.7vw;
+    height: 22vh;
+  }
+  .activity-image-last {
+    width: 92.4vw;
+  }
 }

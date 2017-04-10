@@ -1,3 +1,5 @@
+.home {
+}
 .stay-boxes {
 	display: flex;
 	justify-content: center;
@@ -13,7 +15,7 @@
 }
 .stay-box-text {
 	background-color: white;
-	padding: 40px;
+	padding: 40px 26px;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
   border-top-style: none;
   bottom: -124px;
@@ -25,6 +27,9 @@
   h4 {
   	padding-top: 10px;
   	padding-bottom: 5px;
+    span {
+      font-size: 14px;
+    }
   }
   p {
   	padding: 10px;
@@ -53,9 +58,19 @@
 	margin-top: 50px;
 	margin-bottom: 0px;
 }
-.stay-image img {
-	width: 75vw;
-  margin: 40px 0 50px 0;
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
-  border: white 12px solid;
+.stay-image {
+  img {
+  	width: 75vw;
+    margin-top: 40px;
+  }
+}
+.stay-images {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  img {
+    width: 24.75vw;
+    height: 30vh;
+    margin: 5px 2.5px 0px 2.5px;
+  }
 }

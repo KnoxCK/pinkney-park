@@ -1,9 +1,10 @@
 <%= render 'shared/navbar_landing' %>
 <div class="banner-landing">
 	<div class="banner-content">
-	    <h1>Pinkney Park</h1>
-	    <p>A family home and estate for private and corporate entertaining</p>
-	    <%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button" %><%= link_to "PLAN AN EVENT", events_path, class: "landing-button" %>
+	    <%= image_tag "PinkneyPark-logo.png", class: "logo" %>
+	    <div class="landing-buttons"> 	<%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button" %>
+	    	<%= link_to "PLAN AN EVENT", events_path, class: "landing-button" %>
+	    </div>
 	</div>
 </div>
 <div class="green-line"></div>
@@ -85,7 +86,7 @@
 					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488483685/resi-landing-box_s4axdl.jpg") %>
 				</div>
 				<div class="landing-box-text">
-					<h4><h4><%= link_to "Residential Properties", properties_path %></h4></h4>
+					<h4><%= link_to "Residential Properties", properties_path %></h4>
 				</div>
 			</div>
 			<div class="landing-box">
@@ -93,7 +94,7 @@
 					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488484355/landing-box-loc_eldiwu.jpg") %>
 				</div>
 				<div class="landing-box-text">
-					<h4><h4><%= link_to "Local Area", local_area_path %></h4>
+					<h4><%= link_to "Local Area", local_area_path %></h4>
 				</div>
 			</div>
 		</div>
