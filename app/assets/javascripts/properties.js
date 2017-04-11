@@ -11,6 +11,7 @@ e.preventDefault();
 });
 
 $(document).on('click', '.resi-link', function(e) {
+  $(".a[href$=properties").addClass("hidden");
   $(".commercial-page").addClass("hidden");
   $(".residential-page").removeClass("hidden");
 e.preventDefault();
