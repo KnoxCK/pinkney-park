@@ -1,5 +1,6 @@
 .contact-wrapper {
 	background-color: #EAF0EE;
+	z-index: 1;
 	padding: 20px 0;
 }
 .contact-boxes {
@@ -7,6 +8,7 @@
 	justify-content: center;
 	align-content: center;
 	border: #EAF0EE 20px solid;
+	z-index: 1000;
 }
 .contact-box {
 	background-color: white;

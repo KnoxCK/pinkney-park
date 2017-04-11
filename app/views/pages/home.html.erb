@@ -5,10 +5,13 @@
 	    <div class="landing-buttons"> 	<%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button" %>
 	    	<%= link_to "PLAN AN EVENT", events_path, class: "landing-button" %>
 	    </div>
+	    <%= link_to "#welcome" do %>
+  			<%= image_tag "PinkneyPark-arrow-down.png", class: "arrow-down", id: "arrow" %>
+		<% end %>
 	</div>
 </div>
-<div class="green-line"></div>
-<div class="intro-text text-center padded container">
+<div class="landing-green-line"></div>
+<div class="intro-text text-center padded container" id="welcome">
 	<h2>Welcome to Pinkney Park</h2>
 	<p>Pinkney Park is a beautiful private home and estate near the village of Sherston on the Wiltshire/Gloucestershire border. Sitting in a stunning parkland setting, Pinkney Park is ideally situated in the Cotswolds Area of Outstanding Natural Beauty and has been hosting events in all shapes and sizes for 30 years.
 	<br></br>
