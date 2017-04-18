@@ -25,6 +25,15 @@
 .landing-box {
 	margin: 10px;
 }
+.landing-box:hover {
+	.landing-box-text {
+		background-color: #D5E2DE;
+		border-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+}
 .landing-box-image img {
 	width: 28vw;
 	position: relative;
@@ -41,19 +50,6 @@
     z-index: 100;
     width: 28vw;
     text-decoration: none;
-}
-.landing-box-text:hover {
-	background-color: #D5E2DE;
-	border-style: none;
-	text-decoration: none;
-}
-.landing-box-text a {
-	text-decoration: none;
-	color: #395B5B;
-}
-.landing-box-text a:hover {
-	text-decoration: none;
-	color: #395B5B;
 }
 .landing-box-row-1 img {
 	margin-top: -80px;
@@ -72,11 +68,9 @@
 	margin-top: 50px;
 	margin-bottom: -100px;
 }
-
 #weddings-hover-text {
 	display: none;
 }
-
 .weddings:hover {
 	#weddings-hover-text {
 		display: block;

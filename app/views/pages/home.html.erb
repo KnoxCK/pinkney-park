@@ -24,38 +24,46 @@
 	<div class="container">
 		<div class="landing-boxes landing-box-row-1 text-center">
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box3_br0rds.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Activity Days", events_path(:anchor => "activity-days-jump") %></h4>
-				</div>
+				<%= link_to events_path(:anchor => "activity-days-jump") do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box3_br0rds.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Activity Days</h4>
+					</div>
+				<% end %>
 			</div>
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Filming & Photoshoots", events_path(:anchor => "filming-jump") %></h4>
-				</div>
+				<%= link_to events_path(:anchor => "filming-jump") do %>
+					<div class="landing-box-image">
+  					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Filming & Photoshoots</h4>
+					</div>
+				<% end %>
 			</div>
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482512/cricket-landing-box_bi30cn.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Cricket Pitch", events_path(:anchor => "cricket-jump") %></h4>
-				</div>
+				<%= link_to events_path(:anchor => "cricket-jump") do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482512/cricket-landing-box_bi30cn.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Cricket Pitch </h4>
+					</div>
+				<% end %>
 			</div>
 		</div>
 		<div class="landing-boxes text-center">
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488484356/landing-box-stay_jma8dg.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Accommodation", stay_path %></h4>
-				</div>
+				<%= link_to stay_path do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488484356/landing-box-stay_jma8dg.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Accommodation</h4>
+					</div>
+				<% end %>
 			</div>
 			<div class="landing-box">
 				<div class="landing-box-image">
@@ -67,38 +75,46 @@
 				</div>
 			</div>
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482518/shoot-landing-box_xatlv0.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Corporate Entertainment", events_path(:anchor => "activity-days-jump") %></h4>
-				</div>
+				<%= link_to events_path(:anchor => "activity-days-jump") do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482518/shoot-landing-box_xatlv0.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Corporate Entertainment</h4>
+					</div>
+				<% end %>
 			</div>
 		</div>
 		<div class="landing-boxes text-center">
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488483685/commercial-landing-box_e4wyhw.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Commercial Properties", properties_path %></h4>
-				</div>
+				<%= link_to properties_path do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488483685/commercial-landing-box_e4wyhw.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Commercial Properties</h4>
+					</div>
+				<% end %>	
 			</div>
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488483685/resi-landing-box_s4axdl.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Residential Properties", properties_path %></h4>
-				</div>
+				<%= link_to properties_path do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488483685/resi-landing-box_s4axdl.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Residential Properties</h4>
+					</div>
+				<% end %>
 			</div>
 			<div class="landing-box">
-				<div class="landing-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488484355/landing-box-loc_eldiwu.jpg") %>
-				</div>
-				<div class="landing-box-text">
-					<h4><%= link_to "Local Area", local_area_path %></h4>
-				</div>
+				<%= link_to local_area_path do %>
+					<div class="landing-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488484355/landing-box-loc_eldiwu.jpg") %>
+					</div>
+					<div class="landing-box-text">
+						<h4>Local Area</h4>
+					</div>
+				<% end %>
 			</div>
 		</div>
 	</div>
