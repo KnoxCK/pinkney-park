@@ -1,4 +1,7 @@
-.home {
+.stay-wrapper {
+  background-color: #EAF0EE;
+  margin-top: -120px;
+  margin-bottom: 0px;
 }
 .stay-boxes {
 	display: flex;
@@ -52,11 +55,6 @@
   left: 3px;
   right: 3px;
   z-index: 5;
-}
-.stay-wrapper {
-	background-color: #EAF0EE;
-	margin-top: 50px;
-	margin-bottom: 0px;
 }
 .stay-image {
   img {
