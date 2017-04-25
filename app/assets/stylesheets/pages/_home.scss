@@ -1,6 +1,7 @@
 .intro-text {
-	padding-right: 75px;
-	padding-left: 75px;
+	padding-right: 100px;
+	padding-left: 100px;
+	height: 70vh;
 	h2 {
 		padding-bottom: 30px;
 	}
@@ -11,44 +12,55 @@
 	}
 }
 .green-line {
-	border-top: #EAF0EE 20px solid;
+	border-bottom: 20px solid #EAF0EE;
 }
-.landing-green-line {
-	border-top: #D5E2DE 20px solid;
+.landing-intro-text {
+	padding-right: 75px;
+	padding-left: 75px;
+	height: 75vh;
+	h1 {
+		padding-bottom: 30px;
+	}
 }
 .landing-boxes {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	position: relative;
+	margin-bottom: 15px;
 }
 .landing-box {
 	margin: 10px;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
+	-webkit-transition: all .5s ease-in-out;
+	opacity: 0.90;
 }
 .landing-box:hover {
+	-webkit-transform: scale(1.02);
+	opacity: 1;
 	.landing-box-text {
-		background-color: #D5E2DE;
+		background-color: #EAF0EE;
 		border-style: none;
+		font-size: 17px;
 	}
 	a {
 		text-decoration: none;
 	}
 }
 .landing-box-image img {
-	width: 28vw;
+	width: 26vw;
 	position: relative;
 }
 .landing-box-text {
 	background-color: white;
-	padding: 40px;
-  	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
+	padding: 30px;
     border-top-style: none;
     bottom: -124px;
     left: 0;
     right: 0;
     justify-content: center;
     z-index: 100;
-    width: 28vw;
+    width: 26vw;
     text-decoration: none;
 }
 .landing-box-row-1 img {
@@ -65,26 +77,31 @@
 }
 .landing-wrapper {
 	background-color: #EAF0EE;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: -100px;
 }
 #weddings-hover-text {
 	display: none;
 }
 .weddings:hover {
+	-webkit-transform: scale(1);
+	opacity: 1;
+	#weddings-occasions {
+		display: none;
+	}
 	#weddings-hover-text {
 		display: block;
 		margin-top: 4px;
 		margin-bottom: -6px;
 	}
-	#weddings-occasions {
-		display: none;
-	}
+}
+.landing-margin {
+	margin-bottom: 40vh;
 }
 .about {
 	background-color: white;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 85px;
 }
 .about-wrapper {
 	background-color: #EAF0EE;
@@ -101,11 +118,9 @@
 	align-items: center;
 	flex-direction: column;
 	background-color: white;
-	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
 	padding: 60px 0 0 0;
 	height: 45vh;
 	width: 40vw;
-	border-top: #F6F6F6 0.15px solid;
 	h2 {
 	    padding-top: 30px;
 	}
@@ -121,8 +136,8 @@
 	}
 }
 .about-image {
-	height: 45vh;
-	width: 40vw;
+	height: 56vh;
+    width: 55vw;
 	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
 }
 

@@ -9,17 +9,16 @@
 	Catering can be tailored for all individual needs. We can vary the menus from summer pool or riverside barbeques to five course dinners.
 	</p>
 	<div class="events-buttons">
-		<%= link_to "ACTIVITY DAYS", events_path(:anchor => "activity-days-jump"), class: "events-button" %>
-		<%= link_to "FILMING & PHOTOSHOOTS", events_path(:anchor => "filming-jump"), class: "events-button" %>
-		<%= link_to "CRICKET PITCH", events_path(:anchor => "cricket-jump"), class: "events-button" %>
+		<%= link_to "ACTIVITY DAYS", "#activity-days", class: "events-button", id: "eventsbutton" %>
+		<%= link_to "FILMING & PHOTOSHOOTS", "#filming", class: "events-button", id: "eventsbutton" %>
+		<%= link_to "CRICKET PITCH", "#cricket", class: "events-button", id: "eventsbutton" %>
 	</div>
 </div>
-
 <div class="events-wrapper">
 	<div class="container">
 
 	<!-- ACTIVITY DAYS -->
-		<div class="activity-days" id="activity-days-jump">
+		<div class="activity-days" id="activity-days">
 			<div class="activity-days-box text-center">
 				<h4>Activity Days</h4>
 				<p>The 150 acres of rolling parkland and woodland provide an excellent venue for many types of entertainment. We hold many outdoor “activity days” when specialist companies bring a wide variety of sports and pastimes. 
@@ -39,20 +38,19 @@
 				Camping and many more...
 				<br></br>
 				There are also large areas of flat lawns idea for marquees, product launches and parking.
-		 		</p>
+		 		</p><div id="filming"></div>
 			</div>
 			<div class="activity-days-collage">
 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482518/shoot-landing-box_xatlv0.jpg", class: "activity-image") %>
 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482508/activity-days-small_fyjycj.jpg", class: "activity-image") %>
 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482508/activity-days-small2_ee8wyp.jpg", class: "activity-image") %>
 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482508/activity-days-small3_ldxnqu.jpg", class: "activity-image") %>
-				
 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482509/activity_days_big_eki6em.jpg", class: "activity-image-last") %>
 			</div>
 		</div>
 
 	<!-- FILMING & PHOTOSHOOTS -->
-		<div class="filming-photoshoots" id="filming-jump"">
+		<div class="filming-photoshoots">
 			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488485305/Filming_photoshoots_mgismb.jpg", class: "filming-photoshoots-image") %>
 			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488485094/Filming_photoshoots2_cfgh5u.jpg", class: "filming-photoshoots-image") %>
 			<div class="filming-photoshoots-box text-center">
@@ -63,7 +61,7 @@
 
 	<!-- CRICKET SECTION -->
 		<div class="cricket-section text-center">
-			<div class="cricket-image text-center" id="cricket-jump">
+			<div class="cricket-image text-center" id="cricket">
 				<div class="cricket-content">
 				    <h4>Cricket Pitch</h4>
 				    <p>We have a private cricket ground available for hire. There is a well-appointed <br>pavilion with showers and loos, 2 practice nets, sight screens and covers. 
