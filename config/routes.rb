@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'properties', to: 'pages#properties'
   get 'contact', to: 'pages#contact'
   get 'local_area', to: 'pages#local_area'
+  get 'gallery', to: 'pages#gallery'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

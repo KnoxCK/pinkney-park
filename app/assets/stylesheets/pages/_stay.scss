@@ -1,5 +1,5 @@
 .stay-wrapper {
-  background-color: #EAF0EE;
+  background-color: #F3F6F5;
   margin-top: -120px;
   margin-bottom: 0px;
 }
@@ -18,9 +18,9 @@
 }
 .stay-box-text {
 	background-color: white;
+  border-top: solid 3px white;
 	padding: 40px 26px;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
-  border-top-style: none;
   bottom: -124px;
   left: 0;
   right: 0;
@@ -40,6 +40,7 @@
   }
 }
 .stay-box-text:hover {
+  border-top: solid 3px #1F363D;
 	h4, p {
 		color: black;
 	}
@@ -67,8 +68,8 @@
   justify-content: center;
   margin: 0 20px;
   img {
-    width: 24.75vw;
+    width: 307px;
     height: 30vh;
-    margin: 5px 2.5px 0px 2.5px;
+    margin: 18px 10px 20px 10px;
   }
 }

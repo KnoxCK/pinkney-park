@@ -2,7 +2,7 @@
 	padding-bottom: 1em;
 }
 .events-wrapper {
-	background-color: #EAF0EE;
+	background-color: #F3F6F5;
 }
 
 //ACTIVITIES
@@ -16,6 +16,10 @@
     width: 162vw;
     margin-top: -26px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    h4 {
+    	font-size: 24px;
+  
+    }
     p {
     	padding-top: 20px;
     	color: #395B5B;
@@ -46,6 +50,9 @@
 	display: flex;
 	justify-content: center;
 	align-items:center;
+	h4 {
+    	font-size: 24px;
+    }
 }
 .filming-photoshoots-box {
 	padding: 40px;
@@ -84,6 +91,9 @@
 	padding: 35px 55px;
 	z-index: 1000;
 	background-color: white;
+	h4 {
+    	font-size: 24px;
+    }
 	p {
 		padding-top: 20px;
 		color: #395B5B;

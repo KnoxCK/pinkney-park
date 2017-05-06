@@ -39,9 +39,10 @@
 	-webkit-transform: scale(1.02);
 	opacity: 1;
 	.landing-box-text {
-		background-color: #EAF0EE;
+		background-color: #FFFFFF;
 		border-style: none;
 		font-size: 17px;
+		border-top: solid 2px #1F363D;
 	}
 	a {
 		text-decoration: none;
@@ -62,21 +63,25 @@
     z-index: 100;
     width: 26vw;
     text-decoration: none;
+    border-top: solid 2px white;
+    h4 {
+    	font-size: 18px;
+    }
 }
 .landing-box-row-1 img {
 	margin-top: -80px;
 }
 .landing-box-border {
-  border: #EAF0EE 2px solid;
-  position: absolute;
-  top: 3px;
-  bottom: 3px;
-  left: 3px;
-  right: 3px;
-  z-index: 5;
+    border: #EAF0EE 2px solid;
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    z-index: 5;
 }
 .landing-wrapper {
-	background-color: #EAF0EE;
+	background-color: #F3F6F5;
 	margin-top: 30px;
 	margin-bottom: -100px;
 }
@@ -139,5 +144,7 @@
 	height: 56vh;
     width: 55vw;
 	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
+	border-left: solid 15px #EAF0EE;
+	border-right: solid 15px #EAF0EE; 
 }
 
