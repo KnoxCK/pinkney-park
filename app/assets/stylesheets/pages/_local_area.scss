@@ -1,12 +1,19 @@
+.local-area-page-content {
+  z-index:20;
+  position: absolute;
+  background-color: white;
+  width: 100vw;
+  margin-top: 350px;
+}
 .local-wrapper {
 	background-color: #F3F6F5;
 	z-index: 1;
 	display: flex;
 	justify-content: center;
-	margin-top: -60px;
 }
 .local-text {
-	padding-bottom: 40px;  	
+	padding-bottom: 40px;  
+	height: 60vh;	
 }
 .local-image {
 	img {

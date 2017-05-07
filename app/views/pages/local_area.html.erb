@@ -1,37 +1,40 @@
 <%= render 'shared/navbar_main' %> 
 <div class="banner-contact">
 </div>
-<div class="green-line"></div>
-<div class="intro-text padded text-center container local-text">
-	<h2>Things to do in the area</h2>
-	<p>Pinkney Park is located just outside the beautiful Cotswold village of Sherston which boasts 2 pubs, a café and restaurant, wine shop and beautiful church and host the annual Sherston Boules Tournament and Carnival.<br></br>
-	The surrounding area has numerous places to see, events to attend and countryside to enjoy </br>– the following are to name just a few:</p>
-</div>
-<div class="local-wrapper">
-	<div class="local-box text-center">	
-		<div class="local-image text-center">
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1491908661/Screen_Shot_2017-04-11_at_12.02.56_zmzdqv.png") %>
-		</div>
-		<br></br>
-		<div class="local-links text-center">
-			<%= link_to "Westonbirt, The National Arboretum (3 miles)", "https://www.forestry.gov.uk/westonbirt", target: "_blank" %><br></br>
-			<%= link_to "Whatley Manor Hotel and Spa (3 miles)", "https://www.whatleymanor.com", target: "_blank" %><br></br>
-			<%= link_to "Badminton International Horse Trials (4 miles)", "https://www.badminton-horse.co.uk", target: "_blank" %><br></br>
-			<%= link_to "Beaufort Polo Club (4 miles)", "https://www.beaufortpoloclub.com", target: "_blank" %><br></br>
-			<%= link_to "Highgrove Gardens (5 miles)", "https://www.highgrovegardens.com", target: "_blank" %><br></br>
-			<%= link_to "Malmesbury Abbey (5 miles)", "https://www.malmesburyabbey.com", target: "_blank" %><br></br>
-			<%= link_to "Tetbury antique shops (6 miles)", "" %><br></br>
-			<%= link_to "Chavenage House (8 miles)", "https://www.chavenage.com", target: "_blank" %><br></br>
-			<%= link_to "Castle Combe Village and Golf Club (8 miles)", "https://www.exclusive.co.uk", target: "_blank" %><br></br>
-			<%= link_to "Gatcombe Horse Trials (11 miles)", "https://www.gatcombe-horse.co.uk", target: "_blank" %><br></br>
-			<%= link_to "Lacock Abbey (15 miles)", "https://www.nationaltrust.org.uk", target: "_blank" %><br></br>
-			<%= link_to "Cirencester (16 miles)", "" %><br></br>
-			<%= link_to "Bowood House and Gardens and Golf Club (16 miles)", "https://www.bowood.org", target: "_blank" %><br></br>
-			<%= link_to "Theatre Royal and Bath (19 miles)", "https://www.theatreroyal.org.uk", target: "_blank" %><br></br>
-			<%= link_to "Cheltenham Race Course (30 miles)", "https://www.thefestival.co.uk", target: "_blank" %><br></br>
-			<%= link_to "Longleat (33 miles)", "https://www.longleat.co.uk", target: "_blank" %><br></br>
+<div class="local-area-page-content">
+	<div class="green-line"></div>
+	<div class="intro-text padded text-center container local-text fadeIn">
+		<h2>Things to do in the area</h2>
+		<p>Pinkney Park is located just outside the beautiful Cotswold village of Sherston which boasts 2 pubs, a café and restaurant, wine shop and beautiful church and host the annual Sherston Boules Tournament and Carnival.<br></br>
+		The surrounding area has numerous places to see, events to attend and countryside to enjoy </br>– the following are to name just a few:</p>
+	</div>
+	<div class="local-wrapper">
+		<div class="local-box text-center fadeIn">	
+			<div class="local-image text-center">
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1491908661/Screen_Shot_2017-04-11_at_12.02.56_zmzdqv.png") %>
+			</div>
+			<br></br>
+			<div class="local-links text-center">
+				<%= link_to "Westonbirt, The National Arboretum (3 miles)", "https://www.forestry.gov.uk/westonbirt", target: "_blank" %><br></br>
+				<%= link_to "Whatley Manor Hotel and Spa (3 miles)", "https://www.whatleymanor.com", target: "_blank" %><br></br>
+				<%= link_to "Badminton International Horse Trials (4 miles)", "https://www.badminton-horse.co.uk", target: "_blank" %><br></br>
+				<%= link_to "Beaufort Polo Club (4 miles)", "https://www.beaufortpoloclub.com", target: "_blank" %><br></br>
+				<%= link_to "Highgrove Gardens (5 miles)", "https://www.highgrovegardens.com", target: "_blank" %><br></br>
+				<%= link_to "Malmesbury Abbey (5 miles)", "https://www.malmesburyabbey.com", target: "_blank" %><br></br>
+				<%= link_to "Tetbury antique shops (6 miles)", "" %><br></br>
+				<%= link_to "Chavenage House (8 miles)", "https://www.chavenage.com", target: "_blank" %><br></br>
+				<%= link_to "Castle Combe Village and Golf Club (8 miles)", "https://www.exclusive.co.uk", target: "_blank" %><br></br>
+				<%= link_to "Gatcombe Horse Trials (11 miles)", "https://www.gatcombe-horse.co.uk", target: "_blank" %><br></br>
+				<%= link_to "Lacock Abbey (15 miles)", "https://www.nationaltrust.org.uk", target: "_blank" %><br></br>
+				<%= link_to "Cirencester (16 miles)", "" %><br></br>
+				<%= link_to "Bowood House and Gardens and Golf Club (16 miles)", "https://www.bowood.org", target: "_blank" %><br></br>
+				<%= link_to "Theatre Royal and Bath (19 miles)", "https://www.theatreroyal.org.uk", target: "_blank" %><br></br>
+				<%= link_to "Cheltenham Race Course (30 miles)", "https://www.thefestival.co.uk", target: "_blank" %><br></br>
+				<%= link_to "Longleat (33 miles)", "https://www.longleat.co.uk", target: "_blank" %><br></br>
+			</div>
 		</div>
 	</div>
+	<%= render 'shared/please_call' %>
+	<%= render 'shared/footer' %>
 </div>
-
 

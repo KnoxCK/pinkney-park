@@ -1,3 +1,10 @@
+.contact-page-content {
+  z-index:20;
+  position: absolute;
+  background-color: white;
+  width: 100vw;
+  margin-top: 70px;
+}
 .contact-wrapper {
 	background-color: #F3F6F5;
 	z-index: 1;
@@ -7,7 +14,6 @@
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	border: #EAF0EE 20px solid;
 	z-index: 1000;
 }
 .contact-box {
@@ -34,9 +40,3 @@
 		color: #395B5B;
 	}
 }
-.contact-map {
-	height: 70vh;
-	width: 40vw;
-	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
-}
-

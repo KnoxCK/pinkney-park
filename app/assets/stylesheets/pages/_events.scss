@@ -1,9 +1,18 @@
+.events-page-content {
+  z-index:20;
+  position: absolute;
+  background-color: white;
+  width: 100vw;
+  margin-top: 350px;
+}
 .events-para {
 	padding-bottom: 1em;
+	height: 65vh;
 }
 .events-wrapper {
 	background-color: #F3F6F5;
 }
+
 
 //ACTIVITIES
 .activity-days {
@@ -30,9 +39,6 @@
 		color: black;
 	}
 } 
-.activity-days-collage {
-	
-}
 .activity-image {
 	width: 22.34vw;
 	height: 25vh;

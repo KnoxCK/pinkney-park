@@ -1,23 +1,11 @@
-.intro-text {
-	padding-right: 100px;
-	padding-left: 100px;
-	height: 70vh;
-	h2 {
-		padding-bottom: 30px;
-	}
-	p {
-		color: #395B5B;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
+#welcome {
+	margin-bottom: 10px;
 }
 .green-line {
 	border-bottom: 20px solid #EAF0EE;
 }
 .landing-intro-text {
-	padding-right: 75px;
-	padding-left: 75px;
-	height: 75vh;
+	height: 74vh;
 	h1 {
 		padding-bottom: 30px;
 	}
@@ -98,6 +86,7 @@
 		display: block;
 		margin-top: 4px;
 		margin-bottom: -6px;
+		line-height: 1;
 	}
 }
 .landing-margin {
@@ -132,6 +121,7 @@
 	p {
 		padding: 30px 50px 0 50px;
 		color: #395B5B;
+		text-align: left;
 	}
 	span {
 		font-size: 20px;

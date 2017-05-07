@@ -6,8 +6,8 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 4em;
+  padding-bottom: 2em;
 }
 
 // Backgrounds
@@ -22,4 +22,17 @@
 }
 .bg-dark-blue {
   background: #3b5998;
+}
+.intro-text {
+	padding-right: 100px;
+	padding-left: 100px;
+	h2 {
+		padding-bottom: 30px;
+		font-size: 35px;
+	}
+	p {
+		color: #395B5B;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }

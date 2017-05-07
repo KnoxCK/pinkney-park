@@ -1,71 +1,75 @@
 <%= render 'shared/navbar_main' %> 
 <div class="banner-prop" id="properties">
 </div>
-<div class="green-line"></div>
 
-<!-- COMMERCIAL PROPERTY PAGE -->
-<div class="commercial-page">
-	<div class="properties-buttons text-center">
-		<div class="commercial-button text-center">
-			<%= link_to "COMMERCIAL PROPERTY", "", class: "properties-button-active" %>
+<div class="properties-page-content">
+	<div class="green-line"></div>
+	<!-- COMMERCIAL PROPERTY PAGE 
+	-->
+	<div class="commercial-page">
+		<div class="properties-buttons text-center">
+			<div class="commercial-button text-center">
+				<%= link_to "COMMERCIAL PROPERTY", "", class: "properties-button-active" %>
+			</div>
+			<div class="residential-button">
+				<%= link_to "RESIDENTIAL PROPERTY", "", class: "properties-button" %>
+			</div>
 		</div>
-		<div class="residential-button">
-			<%= link_to "RESIDENTIAL PROPERTY", "", class: "properties-button" %>
+		<div class="properties-border">
+			<hr>
+		</div>
+		<div class="intro-text text-center container comm-property-text fadeIn">
+			<h2>Commercial Property</h2>
+			<p>Pinkney Park has a total of 18 office and workshop units, varying in type from Cotswold Stone barn conversions to purpose built modern buildings, and varying in size from 250 to 8000 square feet.
+			<br></br>
+			There are approximately 135 people employed on the site.
+		 	<br></br>
+			Currently all units are let, but we maintain a list of prospective tenants who are interested in moving to Pinkney Park. 
+			</p>
+		</div>
+		<div class="container properties-wrapper fadeIn">
+			<div class="properties-boxes">
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487944/prop9_znlauc.jpg") %>
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487710/prop4_ldeerq.jpg") %>
+			</div>
+			<div class="properties-boxes">
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487713/prop3_diodpg.jpg") %>
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487715/prop6_rvgegi.jpg") %>
+			</div>
 		</div>
 	</div>
-	<div class="properties-border">
-		<hr>
-	</div>
-	<div class="intro-text text-center container property-text">
-		<h2>Commercial Property</h2>
-		<p>Pinkney Park has a total of 18 office and workshop units, varying in type from Cotswold Stone barn conversions to purpose built modern buildings, and varying in size from 250 to 8000 square feet.
-		<br></br>
-		There are approximately 135 people employed on the site.
-	 	<br></br>
-		Currently all units are let, but we maintain a list of prospective tenants who are interested in moving to Pinkney Park. 
-		</p>
-	</div>
-	<div class="container properties-wrapper">
-		<div class="properties-boxes">
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487944/prop9_znlauc.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487710/prop4_ldeerq.jpg") %>
-		</div>
-		<div class="properties-boxes">
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487713/prop3_diodpg.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487715/prop6_rvgegi.jpg") %>
-		</div>
-	</div>
-</div>
 
-<!-- RESIDENTIAL PROPERTY PAGE -->
-<div class="residential-page hidden">
-	<div class="properties-buttons text-center">
-		<div class="commercial-button text-center">
-			<%= link_to "COMMERCIAL PROPERTY", "", class: "properties-button" %>
+	<!-- RESIDENTIAL PROPERTY PAGE -->
+	<div class="residential-page hidden">
+		<div class="properties-buttons text-center">
+			<div class="commercial-button text-center">
+				<%= link_to "COMMERCIAL PROPERTY", "", class: "properties-button" %>
+			</div>
+			<div class="residential-button">
+				<%= link_to "RESIDENTIAL PROPERTY", "", class: "properties-button-active" %>
+			</div>
 		</div>
-		<div class="residential-button">
-			<%= link_to "RESIDENTIAL PROPERTY", "", class: "properties-button-active" %>
+		<div class="properties-border">
+			<hr>
+		</div>
+		<div class="intro-text text-center container resi-property-text fadeIn">
+			<h2>Residential Property</h2>
+			<p>We have three Cotswold stone cottages ranging from 2 to 4 bedrooms and a 2 bedroom flat available to rent at Pinkney Park.
+		 	<br></br>
+			We currently have no vacancies but please do contact us if you would like to be informed of any change. 
+			</p>
+		</div>
+		<div class="container properties-wrapper fadeIn">
+			<div class="properties-boxes">
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487714/prop5_fqftbp.jpg") %>
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487712/prop1_fadkco.jpg") %>
+			</div>
+			<div class="properties-boxes">
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487712/prop8_x1quh8.jpg") %>
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488488330/prop10_ogt1ny.jpg") %>
+			</div>
 		</div>
 	</div>
-	<div class="properties-border">
-		<hr>
-	</div>
-	<div class="intro-text text-center container property-text">
-		<h2>Residential Property</h2>
-		<p>We have three Cotswold stone cottages ranging from 2 to 4 bedrooms and a 2 bedroom flat available to rent at Pinkney Park.
-	 	<br></br>
-		We currently have no vacancies but please do contact us if you would like to be informed of any change. 
-		</p>
-	</div>
-	<div class="container properties-wrapper">
-		<div class="properties-boxes">
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487714/prop5_fqftbp.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487712/prop1_fadkco.jpg") %>
-		</div>
-		<div class="properties-boxes">
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487712/prop8_x1quh8.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488488330/prop10_ogt1ny.jpg") %>
-		</div>
-	</div>
+	<%= render 'shared/please_call' %>
+	<%= render 'shared/footer' %>
 </div>
-<%= render 'shared/please_call' %>

@@ -1,7 +1,5 @@
 <%= render 'shared/navbar_main' %> 
-<div class="banner-contact">
-</div>
-<div class="contact-wrapper">
+<div class="contact-page-content">
 	<div class="contact-boxes">
 		<div class="contact-box text-center">
 			<h2>Contact Us</h2>
@@ -14,6 +12,6 @@
 			T: +44 (0) 1666 840257<br>
 			E: <%= link_to "info@pinkneypark.co.uk", "mailto:info@pinkneypark.co.uk" %>
 		</div>
-		<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492832/map_fjsuqo.jpg", class: "contact-map") %>
 	</div>
+	<%= render 'shared/footer' %>
 </div>

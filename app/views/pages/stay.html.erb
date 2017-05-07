@@ -1,57 +1,59 @@
 <%= render 'shared/navbar_main' %> 
 <div class="banner-stay">
 </div>
-
-<div class="green-line"></div>
-<div class="intro-text text-center padded container">
-	<h2>Stay at Pinkney</h2>
-	<p>Situated in historic Cotswold stone buildings, we have up to 7 double guest bedrooms with 6 bathrooms at Pinkney Park and we feel sure you’ll have a very relaxing and comfortable stay with us.
-	</p>
-</div>
-<div class="stay-wrapper">
-	<div class="container">
-		<div class="stay-boxes stay-box-row-1 text-center">
-			<div class="stay-box">
-				<div class="stay-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488486769/b_b_bmrqbx.jpg") %>
+<div class="stay-page-content">
+	<div class="green-line"></div>
+	<div class="intro-text text-center padded container fadeIn stay-text">
+		<h2>Stay at Pinkney</h2>
+		<p>Situated in historic Cotswold stone buildings, we have up to 7 double guest bedrooms with 6 bathrooms at Pinkney Park and we feel sure you’ll have a very relaxing and comfortable stay with us.
+		</p>
+	</div>
+	<div class="stay-wrapper fadeIn">
+		<div class="container">
+			<div class="stay-boxes stay-box-row-1 text-center">
+				<div class="stay-box">
+					<div class="stay-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488486769/b_b_bmrqbx.jpg") %>
+					</div>
+					<div class="stay-box-text">
+						<h4>B&B<br><span>by prior appointment</span></h4>
+						<p>All 7 of our comfortable double bedrooms have their own character situated in historic Cotswold out buildings. We include a delicious traditional breakfast. Guests are also able to relax in the stunning gardens or explore the grounds beyond.<br></p>
+					</div>
 				</div>
-				<div class="stay-box-text">
-					<h4>B&B<br><span>by prior appointment</span></h4>
-					<p>All 7 of our comfortable double bedrooms have their own character situated in historic Cotswold out buildings. We include a delicious traditional breakfast. Guests are also able to relax in the stunning gardens or explore the grounds beyond.<br></p>
+				<div class="stay-box">
+					<div class="stay-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487074/dining_ywshrj.jpg") %>
+					</div>
+					<div class="stay-box-text">
+						<h4>Dining</h4>
+						<br>
+						<p>Whilst bed and breakfast is our standard fare, we can offer a wide variety of dining options and will try where possible to cater to your needs whilst focusing on the use of local produce.<br></br></p>
+					</div>
+				</div>
+				<div class="stay-box">
+					<div class="stay-box-image">
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488486768/local_qxyaxm.jpg") %>
+					</div>
+					<div class="stay-box-text">
+						<h4>Location</h4>
+						<br>
+						<p>With its relaxed atmosphere, Pinkney is the perfect location to base yourselves and discover the beautiful surrounding countryside and Cotswold villages and towns of Wiltshire and Gloucestershire.</p>
+						<br>
+					</div>
 				</div>
 			</div>
-			<div class="stay-box">
-				<div class="stay-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488487074/dining_ywshrj.jpg") %>
+			<div class="stay-collage">
+				<div class="stay-image text-center">
+					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494053926/Untitled-3_o0q8hw.jpg") %>
 				</div>
-				<div class="stay-box-text">
-					<h4>Dining</h4>
-					<br>
-					<p>Whilst bed and breakfast is our standard fare, we can offer a wide variety of dining options and will try where possible to cater to your needs whilst focusing on the use of local produce.<br></br></p>
+				<div class="stay-images">
+					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494083139/Untitled-2_sx3bt1.jpg") %>
+					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494082756/Untitled-2_ou1kff.jpg") %>
+					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494054468/Untitled-_v56qac.jpg") %>
 				</div>
-			</div>
-			<div class="stay-box">
-				<div class="stay-box-image">
-					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488486768/local_qxyaxm.jpg") %>
-				</div>
-				<div class="stay-box-text">
-					<h4>Location</h4>
-					<br>
-					<p>With its relaxed atmosphere, Pinkney is the perfect location to base yourselves and discover the beautiful surrounding countryside and Cotswold villages and towns of Wiltshire and Gloucestershire.</p>
-					<br>
-				</div>
-			</div>
-		</div>
-		<div class="stay-collage">
-			<div class="stay-image text-center">
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494053926/Untitled-3_o0q8hw.jpg") %>
-			</div>
-			<div class="stay-images">
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494083139/Untitled-2_sx3bt1.jpg") %>
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494082756/Untitled-2_ou1kff.jpg") %>
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1494054468/Untitled-_v56qac.jpg") %>
 			</div>
 		</div>
 	</div>
+	<%= render 'shared/please_call' %>
+	<%= render 'shared/footer' %>
 </div>
-<%= render 'shared/please_call' %>

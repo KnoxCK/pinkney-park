@@ -1,6 +1,6 @@
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-    if (scroll > $(window).height() * 0.50) {
+    if (scroll > $(window).height() * 0.30) {
         setTimeout(function() {
 	    $(".landing-header").removeClass("hidden");     
 		e.preventDefault();
