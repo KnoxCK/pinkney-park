@@ -1,5 +1,5 @@
 .local-area-page-content {
-  z-index:20;
+  z-index: 20;
   position: absolute;
   background-color: white;
   width: 100vw;
@@ -13,32 +13,37 @@
 }
 .local-text {
 	padding-bottom: 40px;  
-	height: 60vh;	
+	padding-top: 40px;
+	height: 55vh;
+	margin-top: 35px;	
 }
 .local-image {
+	width: 65vw;
+	margin-top: -60px;
 	img {
-		width: 65vw;
-		margin-top: -65px;
-		margin-bottom: 20px;
+		width: 100%
 	}
 }
 .local-box {
 	z-index: 1000;
-	
 	flex-direction: column;
 	width: 65vw;
 	padding-bottom: 40px;
 	background-color: white;
+	margin-bottom: 50px;
 	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
 	p {
 		margin-bottom: 60px;
 		color: #395B5B;
 	}
 }
-.local-links a {
-	text-decoration: none;
-	color: #395B5B;
-	font-size: 18px;
+.local-links {
+	padding-top: 65px;
+	a {
+		text-decoration: none;
+		color: #395B5B;
+		font-size: 18px;
+	}
 }
 .local-links a:hover {
 	color: #D5E2DE;

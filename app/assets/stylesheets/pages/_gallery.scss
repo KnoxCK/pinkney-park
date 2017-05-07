@@ -1,13 +1,19 @@
 .gallery-wrapper {
   background-color: #F3F6F5;
+  margin-top: 120px;
+  z-index: 1;
 }
 .gallery-title {
   margin-top: 120px;
 }
 .gallery-collage {
+  z-index: 20;
   padding: 10px 100px 40px 100px;
+  
 }
 #photos {
+  position: relative;
+  margin-top: -90px;
   /* Prevent vertical gaps */
   line-height: 0;
    
