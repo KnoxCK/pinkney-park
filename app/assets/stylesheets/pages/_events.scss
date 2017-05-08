@@ -42,12 +42,13 @@
 .activity-image {
 	width: 22.34vw;
 	height: 25vh;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    padding-right: 8px;
 }
 .activity-image-last {
 	width: 45vw;
 	height: auto;
-    padding-right: 0px;
+    padding-right: 8px;
 }
 //Filming & Photo Shoots
 .filming-photoshoots {
@@ -78,7 +79,7 @@
 .filming-photoshoots-image {
 	width: 25vw;
     height: 36vh;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 //Cricket 
 .cricket-image {
@@ -111,18 +112,18 @@
 	}
 }
 .cricket-collage {
-	padding-top: 5px;
 	z-index: 1;
 	display: flex;
 	justify-content: center;
 }
 .cricket-collage-image {
-	width: 29.4vw;
+	width: 29.1vw;
 	height: 30vh;
+	margin-top: 10px;
 }
 .middle-image {
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 // mobile/desktop only
