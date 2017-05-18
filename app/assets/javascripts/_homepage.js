@@ -4,18 +4,19 @@ $(window).scroll(function() {
         setTimeout(function() {
 	    $(".landing-header").removeClass("hidden");     
 		e.preventDefault();
-		}, 300);
+		}, 100);
         
         setTimeout(function() {
 		$(".landing-para").removeClass("hidden");
 		e.preventDefault();
-		}, 700);
+		}, 300);
 
 		setTimeout(function() {
 		$(".landing-boxes-all").removeClass("hidden");
-		$(".landing-margin").addClass("hidden");
+		$(".blank-block").addClass("hidden");
+
 		e.preventDefault();
-		}, 1100);
+		}, 700);
     } 
     else if (scroll < $(window).height()) {
     }

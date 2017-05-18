@@ -1,7 +1,8 @@
 <%= render 'shared/navbar_landing' %>
 <div class="banner-landing banner-border-btm">
 	<div class="banner-content">
-	    <%= image_tag "PinkneyPark-logo.png", class: "logo fadeIn" %>
+	    <%= image_tag "PinkneyPark-logo.png", class: "logo fadeIn hidden-xs" %>
+	    <%= image_tag "PinkneyPark-logo-small.png", class: "logo-small fadeIn hidden-sm hidden-md hidden-lg hidden-xl" %>
 	    <div class="landing-buttons"> 	
 	    	<%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button fadeIn hidden" %>
 	    	<%= link_to "PLAN AN EVENT", events_path, class: "landing-button fadeIn hidden" %>
@@ -12,7 +13,7 @@
 	<%= image_tag "PinkneyPark-arrow-down.png", class: "arrow-down fadeIn hidden", id: "arrow" %>
 <% end %>
 <div class="green-line" id="welcome"></div>
-<div class="intro-text landing-intro-text text-center padded container">
+<div class="landing-intro-text text-center padded container">
 	<h1 class="landing-header fadeIn hidden">Welcome to Pinkney Park</h1>
 	<p class="landing-para fadeIn hidden">Pinkney Park is a beautiful private home and estate near the village of Sherston on the Wiltshire/Gloucestershire border. Sitting in a stunning parkland setting, Pinkney Park is ideally situated in the Cotswolds Area of Outstanding Natural Beauty and has been hosting events in all shapes and sizes for 30 years.
 	<br></br>
@@ -22,9 +23,9 @@
 	</p>
 </div>
 <div class="landing-wrapper">
-	<div class="container landing-boxes-all fadeIn hidden">
-		<div class="landing-boxes landing-box-row-1 text-center">
-			<div class="landing-box">
+	<div class="landing-boxes-all fadeIn hidden">
+		<div class="landing-boxes text-center">
+			<div class="landing-box landing-box-top-row activity-first-row">
 				<%= link_to events_path(:anchor => "activity-days") do %>
 					<div class="landing-box-image">
 						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box3_br0rds.jpg") %>
@@ -34,7 +35,7 @@
 					</div>
 				<% end %>
 			</div>
-			<div class="landing-box">
+			<div class="landing-box landing-box-top-row">
 				<%= link_to events_path(:anchor => "filming") do %>
 					<div class="landing-box-image">
   					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg") %>
@@ -44,7 +45,7 @@
 					</div>
 				<% end %>
 			</div>
-			<div class="landing-box">
+			<div class="landing-box landing-box-top-row cricket-second-row">
 				<%= link_to events_path(:anchor => "cricket") do %>
 					<div class="landing-box-image">
 						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482512/cricket-landing-box_bi30cn.jpg") %>
@@ -54,8 +55,8 @@
 					</div>
 				<% end %>
 			</div>
-		</div>
-		<div class="landing-boxes text-center">
+
+		
 			<div class="landing-box">
 				<%= link_to stay_path do %>
 					<div class="landing-box-image">
@@ -85,8 +86,8 @@
 					</div>
 				<% end %>
 			</div>
-		</div>
-		<div class="landing-boxes text-center">
+		
+		
 			<div class="landing-box">
 				<%= link_to properties_path do %>
 					<div class="landing-box-image">
@@ -120,7 +121,7 @@
 		</div>
 	</div>
 </div>
-<div class="landing-margin"></div>
+<div class="blank-block"></div>
 <div class="about landing-boxes-all fadeIn hidden">
 	<div class="about-boxes">
 		<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488486331/about_image_h41pjp.jpg", class: "about-image") %>
