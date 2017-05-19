@@ -3,7 +3,7 @@
   position: absolute;
   background-color: white;
   width: 100vw;
-  margin-top: 400px;
+  margin-top: 59vh;
 }
 .stay-wrapper {
   background-color: #F3F6F5;
@@ -11,7 +11,7 @@
   margin-bottom: 0px;
 }
 .stay-text {
-  height: 70vh;
+  height: 474px;
 }
 .stay-boxes {
 	display: flex;
@@ -32,8 +32,6 @@
 	padding: 40px 26px;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
   bottom: -124px;
-  left: 0;
-  right: 0;
   justify-content: center;
   z-index: 100;
   width: 24vw;
@@ -83,3 +81,64 @@
     margin: 10px 5px 20px 5px;
   }
 }
+@media only screen and (max-width:1134px){
+  .stay-boxes {
+    flex-wrap: wrap;
+  }
+  .stay-box-image img {
+    width: 40vw;
+  }
+  .stay-box-text {
+    width: 40vw;
+  }
+  #location-box-img-small img {
+    margin-top: 0;
+  }
+  .stay-image img {
+    width:100%
+  }
+}
+@media only screen and (max-width:992px){
+  .stay-box-image img {
+    width: 35vw;
+  }
+  .stay-box-text {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width:835px){
+  .stay-boxes {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .stay-box-image img {
+    width: 100%;
+  }
+  .stay-box-text {
+    width: 100%;
+  }
+  #dining-box-img-small img {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width:600px){
+  .stay-boxes {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .stay-box-row-1 img {
+    margin-top: 0px;
+  }
+  .stay-text {
+    height: 437px;
+  }
+}
+
+
+
+
+
+
+
+
+

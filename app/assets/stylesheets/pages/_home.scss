@@ -41,7 +41,7 @@
 	}
 }
 .landing-box-image img {
-	width: 447px;
+	width: 30vw;
 	position: relative;
 }
 .landing-box-text {
@@ -53,7 +53,7 @@
     right: 0;
     justify-content: center;
     z-index: 100;
-    width: 447px;
+    width: 30vw;
     text-decoration: none;
     border-top: solid 3px white;
     h4 {
@@ -123,25 +123,14 @@
 }
 
 // Screen sizes
-@media only screen and (min-width:1855px){
-	.landing-boxes {
-		margin: 0 100px 15px 100px;
-	}
-}
-@media only screen and (max-width:1397px){
-	.landing-box-top-row img {
-		margin-top: -60px;
-	}
-	.cricket-second-row img {
-		margin-top: 0px;
-	}
-	.about-image {
-		height: 20vh;
-	}
+@media only screen and (max-width:1500px){
 	.about-boxes {
 		flex-wrap: wrap;
 		flex-direction: column-reverse;
 		align-items: center;
+	}
+	.about-image {
+		height: 20vh;
 	}
 	.about-box {
 		padding-left: 0px;
@@ -153,6 +142,11 @@
 	.about-image {
 		height: auto;
 		width: 80%;
+	}
+}
+@media only screen and (max-width:1397px){
+	.landing-box-top-row img {
+		margin-bottom: 0px;
 	}
 }
 @media only screen and (max-width:1252px){
@@ -169,6 +163,31 @@
 	}
 }
 @media only screen and (max-width:993px){
+	.landing-boxes {
+		margin: 0 20px 15px 20px;
+	}
+	.cricket-second-row img {
+		margin-top: 0;
+	}
+	.landing-box-text {
+		width: 40vw;
+	}
+	.landing-box-image img {
+		width: 40vw;
+	}
+}
+@media only screen and (max-width:910px){
+	.box-text-small-screen {
+		padding: 30px 80px;
+	}
+}
+@media only screen and (max-width:738px){
+	.landing-intro-text {
+		height: auto;
+		p {
+			margin-bottom: 30px;
+		}
+	}
 	.landing-box-image img {
 		width: 100%;
 	}
@@ -186,23 +205,12 @@
 	.activity-first-row {
 		margin-top: -50px;
 	}
-	
-}
-@media only screen and (max-width:700px){
-	.landing-intro-text {
-		height: auto;
-		p {
-			margin-bottom: 30px;
-		}
-	}
 	.about  {
 		padding: 20px 0 0;
 	}
-}
-@media only screen and (max-width:460px){
 	.about-box {
 		p {
-			padding: 30px 20px;
+			padding: 30px 30px;
 		}
 	}
 }
