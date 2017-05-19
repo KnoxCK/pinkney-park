@@ -30,3 +30,10 @@
 		color: #395B5B;
 	}
 }
+@media only screen and (max-width:1000px){
+	.contact-box {
+		width: 100%;
+    	top: 6%;
+    	left: 0;
+	}
+}
