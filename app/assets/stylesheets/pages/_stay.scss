@@ -65,9 +65,14 @@
   right: 3px;
   z-index: 5;
 }
+
+.stay-collage {
+    margin-right: 13vw;
+    margin-left: 13vw;
+}
 .stay-image {
   img {
-  	width: 75vw;
+  	width: 100%;
     margin-top: 40px;
   }
 }
@@ -76,8 +81,8 @@
   justify-content: center;
   margin: 0 20px;
   img {
-    width: 313px;
-    height: 30vh;
+        width: 33.9%;
+    height: 20%;
     margin: 10px 5px 20px 5px;
   }
 }
