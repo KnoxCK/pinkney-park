@@ -2,7 +2,7 @@
 <div class="banner-landing banner-border-btm">
 	<div class="banner-content">
 	    <%= image_tag "PinkneyPark-logo.png", class: "logo fadeIn" %>
-	    <div class="landing-buttons"> 	
+	    <div class="landing-buttons">
 	    	<%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button fadeIn hidden" %>
 	    	<%= link_to "PLAN AN EVENT", events_path, class: "landing-button fadeIn hidden" %>
 	    </div>
@@ -95,10 +95,10 @@
 					<div class="landing-box-text">
 						<h4>Commercial Properties</h4>
 					</div>
-				<% end %>	
+				<% end %>
 			</div>
 			<div class="landing-box">
-				<%= link_to properties_path do %>
+				<%= link_to properties_path, class: 'residential-link' do %>
 					<div class="landing-box-image">
 						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488483685/resi-landing-box_s4axdl.jpg") %>
 					</div>
