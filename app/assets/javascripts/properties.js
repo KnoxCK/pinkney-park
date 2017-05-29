@@ -17,17 +17,14 @@ e.preventDefault();
 // e.preventDefault();
 // });
 
-$(document).click('.residential-link', function(e){
-  e.preventDefault();
-  window.location.href = "/properties#residential-button"
-  console.log('fuck');
-  var hash = document.location.hash;
+$(document).ready(function(){
+  var hash = window.location.hash
+  console.log(hash);
   if (hash) {
-    console.log($('.properties-buttons .'+hash+''));
-    $('.properties-buttons .'+hash+'').addClass('properties-button-active');
+    console.log($('.properties-buttons '+hash+''));
+    $('.properties-buttons '+hash+'').addClass('properties-button-active');
     $(".commercial-page").addClass("hidden");
     $(".residential-page").removeClass("hidden");
-
   }
 });
 
