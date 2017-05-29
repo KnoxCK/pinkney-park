@@ -1,11 +1,11 @@
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > $(window).height() * 0.30) {
         setTimeout(function() {
-	    $(".landing-header").removeClass("hidden");     
+	    $(".landing-header").removeClass("hidden");
 		e.preventDefault();
 		}, 100);
-        
+
         setTimeout(function() {
 		$(".landing-para").removeClass("hidden");
 		e.preventDefault();
@@ -17,7 +17,7 @@ $(window).scroll(function() {
 
 		e.preventDefault();
 		}, 700);
-    } 
+    }
     else if (scroll < $(window).height()) {
     }
 });
