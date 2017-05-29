@@ -1,17 +1,20 @@
 <%= render 'shared/navbar_main' %>
 <div class="contact-page-content">
-	<div class="contact-boxes">
-    <div id=map style="height: 450px;"></div>
+	<div class="contact-section">
+		<div id="map">
+		</div>
 		<div class="contact-box text-center">
 			<h2>Contact Us</h2>
-			<p>Please do contact us and we will do our <br> best to help you with your every need.</p>
-			<span>Pinkney Park<br>
+			
+			<br></br>
+			Pinkney Park<br>
 			Malmesbury<br>
 			Wiltshire<br>
 			SN16 0NX<br>
 			<br>
 			T: +44 (0) 1666 840257<br>
 			E: <%= link_to "info@pinkneypark.co.uk", "mailto:info@pinkneypark.co.uk" %>
+			</p>
 		</div>
 	</div>
 	<%= render 'shared/footer' %>
@@ -21,8 +24,8 @@
   function initMap() {
     // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 51.5782095, lng: -2.1997905},
-      zoom: 14,
+      center: {lat: 51.575999, lng: -2.212554},
+      zoom: 15,
       styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#698d8d"},{"visibility":"on"}]}]
     });
   }
