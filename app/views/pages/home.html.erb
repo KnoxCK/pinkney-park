@@ -1,17 +1,20 @@
 <%= render 'shared/navbar_landing' %>
-<div class="banner-landing banner-border-btm">
+<div class="banner-landing banner-image">
 	<div class="banner-content">
 	    <%= image_tag "PinkneyPark-logo.png", class: "logo fadeIn hidden-xs" %>
 	    <%= image_tag "PinkneyPark-logo-small.png", class: "logo-small fadeIn hidden-sm hidden-md hidden-lg hidden-xl" %>
-	    <div class="landing-buttons">
-	    	<%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button fadeIn hidden" %>
-	    	<%= link_to "PLAN AN EVENT", events_path, class: "landing-button fadeIn hidden" %>
-	    </div>
+	    <!-- <div class="landing-buttons">
+	    	<%= link_to "STAY AT PINKNEY", stay_path, class: "landing-button fadeIn" %>
+	    	<%= link_to "PLAN AN EVENT", events_path, class: "landing-button fadeIn" %>
+	    </div> -->
+	</div>
+	<div class="enter fadeIn">
+	<%= link_to "#welcome" do %>
+		<h5>ENTER</h5>
+		<%= image_tag "PinkneyPark-arrow-down.png", class: "arrow-down", id: "arrow" %>
+	<% end %>
 	</div>
 </div>
-<%= link_to "#welcome" do %>
-	<%= image_tag "PinkneyPark-arrow-down.png", class: "arrow-down fadeIn hidden", id: "arrow" %>
-<% end %>
 <div class="green-line" id="welcome"></div>
 <div class="landing-intro-text text-center padded container">
 	<h1 class="landing-header fadeIn hidden">Welcome to Pinkney Park</h1>
@@ -48,15 +51,13 @@
 			<div class="landing-box landing-box-top-row cricket-second-row">
 				<%= link_to events_path(:anchor => "cricket") do %>
 					<div class="landing-box-image">
-						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482512/cricket-landing-box_bi30cn.jpg") %>
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1497022776/landing-box-stay_jma8dg_copy_wvzu4n.jpg") %>
 					</div>
 					<div class="landing-box-text">
 						<h4>Cricket Pitch </h4>
 					</div>
 				<% end %>
 			</div>
-
-
 			<div class="landing-box">
 				<%= link_to stay_path do %>
 					<div class="landing-box-image">

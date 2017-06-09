@@ -8,10 +8,17 @@ $(document).ready(function(){
 	}, 2000);
 
 	setTimeout(function() {
-	$(".arrow-down").removeClass("hidden");
-	}, 2000);
+		//$(".banner-landing").addClass("banner-image").addClass("gentlefadeOut");
+	}, 3000);
 
 	setTimeout(function() {
 	$(".arrow-down").addClass("floating");
+	$(".").addClass("floating");
+	}, 4000);
+
+	setTimeout(function() {
+	$(".arrow-down").addClass("floating");
+	//$(".banner-image").addClass("gentlefadeOut");
+	//$(".banner-landing").addClass("banner-image-two").addClass("gentlefadeIn");
 	}, 4000);
 })

@@ -1,5 +1,4 @@
 .banner-landing {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488489888/landing_w7eiz8.jpg');
   color: white;
   text-align: center;
   height: calc(100vh);
@@ -24,28 +23,47 @@
     margin-top: 50px;
   }
 }
+.banner-image {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488489888/landing_w7eiz8.jpg');
+}
+.banner-image-two {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg');
+}
 .banner-content {
-  height: 500px;
+  height: 420px;
+}
+.enter {
+  text-decoration: none;
+  h5 {
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px;
+  }
+}
+.enter:hover {
+  h5 {
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 .arrow-down {
-  width: 60px;
+  width: 80px;
   margin-left: 0;
   background-color: transparent;
-  position: absolute;
-  bottom: 0;
-  left: 48.6%;
   border: 1px solid transparent;
-  border-bottom: none;
-  border-radius: 4px 4px 0 0; 
   padding: 10px;
   padding-bottom: 5px;
   color: transparent;
   z-index: 200;
 }
-.arrow-down:hover {
-  background-color: #EAF0EE;
-  border: 1px solid white;
-  border-bottom: none;
+.arrow-case {
+  display: flex;
+  justify-content: center;
 }
 .banner-prop {
   background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488491344/prop_bldet0.jpg');

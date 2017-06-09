@@ -6,6 +6,6 @@ $(window).scroll(function() {
         $(".navbar-pinkneypark-scroll").removeClass("hidden");
     } else if (scroll < $(window).height()) {
         $(".navbar-pinkneypark").removeClass("hidden");
-        $(".navbar-pinkneypark-scroll").addClass("hidden");
+        $(".navbar-pinkneypark-scroll").addClass("hidden")
     }
 });

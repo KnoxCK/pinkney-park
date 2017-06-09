@@ -2,11 +2,14 @@
 .footer {
 	background-color: #1F363D;
 	z-index: 10000 !important;
+	max-width: 100%;
 }
 .footer-main {
 	margin-top: 0px;
 	padding: 70px 0 50px 0;
 	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	span {
 		color: #97B6AC;
 		font-size: 22px;
@@ -22,15 +25,20 @@
 	}
 }
 .footer-left {
-	padding-left: 115px;
-    padding-top: 60px;
-    p {
-   	font-size: 10px;
-   	padding-top: 10px;
-   }
+	padding: 0px 30px;
+	text-align: center;
+	img {
+		margin-bottom: 15px;
+	}
+	span {
+		font-size: 9px;
+	}
 }
 .footer-middle {
-   padding: 0px 138px;
+	padding: 10px 30px;
+}
+.footer-right {
+	padding: 10px 30px;
 }
 .arrow-up {
 	position: relative;
@@ -47,4 +55,19 @@
 .arrow-up a:hover {
 	color: #1F363D;
 	text-decoration: none;
+}
+@media only screen and (max-width:898px){
+	.footer-main {
+		flex-direction: column-reverse;
+	}
+	.footer-left {
+		padding: 40px 10px 15px 10px;
+		text-align: center;
+	}
+	.footer-middle {
+		text-align: center;
+	}
+	.footer-right {
+		text-align: center;
+	}
 }

@@ -40,8 +40,8 @@
 }
 .navbar-pinkneypark-main-link {
   color: white;
-  font-size: 11px;
-  padding: 0 25px;
+  font-size: 12px;
+  padding: 0 20px;
   font-weight: lighter;
   letter-spacing: 2px;
   line-height: 0.5px;
@@ -101,8 +101,29 @@
 }
 .dropdown-menu-right {
   padding: 30px;
+  left: -143px;
+  right: auto;
+}
+.navbar-pinkneypark-main-dropdown-menu:before {
+    right: 155px;
+}
+#toggle-logo {
+    width: 50px;
 }
 
+@media only screen and (max-width:1400px){
+   .navbar-pinkneypark-brand img {
+      left: 30px;
+      width: 46px;
+    }
+    .navbar-pinkneypark-main-link {
+      color: white;
+      font-size: 11px;
+      padding: 0 16px;
+      font-weight: lighter;
+      letter-spacing: 1px;
+    }
+}
 
 // Mobile & Tablet only
 @media only screen and (max-width:1200px){
@@ -111,9 +132,12 @@
   }
 }
 // Tablet - portrait max 420
-@media only screen and (max-width:420px){
+@media only screen and (max-width:993px){
   .navbar-pinkneypark-main-brand img {
-      width: 100px;
+    width: 40px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
   }
 }
 

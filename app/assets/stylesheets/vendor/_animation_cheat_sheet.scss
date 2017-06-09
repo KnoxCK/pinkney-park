@@ -466,6 +466,77 @@ fadeIn
     opacity: 0.0;
   }
 }
+
+.gentlefadeIn{
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+
+  visibility: visible !important;
+}
+
+@keyframes gentlefadeIn {
+  0% {
+    transform: scale(1);
+    opacity: 0.0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes gentlefadeIn {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+  }
+ 
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+.gentlefadeOut{
+  animation-name: fadeOut;
+  -webkit-animation-name: fadeOut;
+
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+
+  animation-timing-function: ease-out-in;
+  -webkit-animation-timing-function: ease-out-in;
+
+  visibility: visible !important;
+}
+
+@keyframes gentlefadeOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes gentlefadeOut {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+ 
+  100% {
+    -webkit-transform: scale(2);
+    opacity: 0.0;
+  }
+}
 /*
 ==============================================
 expandOpen
@@ -1007,6 +1078,7 @@ pullDown
     -webkit-transform: scaleY(1);
   }
 }
+
 
 /*
 ==============================================
