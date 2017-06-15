@@ -1,5 +1,5 @@
 #welcome {
-	margin-bottom: 10px;
+	// margin-bottom: 10px;
 }
 .green-line {
 	border-bottom: 20px solid #EAF0EE;
@@ -8,6 +8,8 @@
 	height: 470px;
 	padding-right: 100px;
 	padding-left: 100px;
+  margin: 0;
+  background-color: #EAF0EE;
 	h1 {
 		padding-bottom: 30px;
 	}
@@ -65,7 +67,7 @@
 }
 .landing-wrapper {
 	background-color: #F3F6F5;
-	margin-top: 30px;
+	// margin-top: 30px;
 	margin-bottom: -100px;
 }
 #weddings-hover-text {
@@ -119,7 +121,7 @@
     width: auto;
 	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.1);
 	border-left: solid 15px #EAF0EE;
-	border-right: solid 15px #EAF0EE; 
+	border-right: solid 15px #EAF0EE;
 }
 
 // Screen sizes
@@ -194,7 +196,7 @@
 	.landing-box-text {
     	width: 100%;
     	justify-content: center;
-	}	
+	}
 	.landing-box {
 		margin-left: 10px;
 		margin-right: 10px;

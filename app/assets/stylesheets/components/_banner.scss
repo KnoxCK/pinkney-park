@@ -29,9 +29,9 @@
 // .banner-image-two {
 //   background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg');
 // }
-// .banner-content {
-//   height: 420px;
-// }
+.banner-content {
+  height: 420px;
+}
 .enter {
   text-decoration: none;
   h5 {
@@ -110,10 +110,10 @@
   position: fixed;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-}
+// html {
+//     position: relative;
+//     min-height: 100%;
+// }
 .carousel-fade .carousel-inner .item {
     opacity: 0;
     transition-property: opacity;
@@ -157,18 +157,18 @@ html {
     }
 }
 .item:nth-child(1) {
-    background: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488489888/landing_w7eiz8.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488489888/landing_w7eiz8.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .item:nth-child(2) {
-    background: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 // .item:nth-child(3) {
 //     background: url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) no-repeat center center fixed;
@@ -178,8 +178,32 @@ html {
 //     background-size: cover;
 // }
 .carousel {
-    z-index: -99;
+  // color: white;
+  // text-align: center;
+  // height: calc(100vh);
+  // width: 100%;
+  // background-size: cover !important;
+  // display:flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+  // padding: 5px;
+  // position: relative;
+  // z-index: 1;
+  z-index: -99;
+  // h6 {
+  //   font-size: 20px;
+  //   font-weight: lighter;
+  //   padding-top: 20px;
+  //   color: white;
+  // }
+  // a {
+  //   padding: 15px;
+  //   letter-spacing: 2px;
+  //   margin-top: 50px;
+  // }
 }
+
 .carousel .item {
     position: fixed;
     width: 100%;
