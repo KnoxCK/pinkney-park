@@ -118,7 +118,7 @@
 // }
 .carousel-fade .carousel-inner .item {
     opacity: 0;
-    transition-property: opacity;
+    transition: opacity 0.8s;
 }
 .carousel-fade .carousel-inner .active {
     opacity: 1;
@@ -215,7 +215,7 @@
   text-align: center;
   height: 100vh;
   margin-top: 20px;
-  padding: 100px 10px;
+  padding: 90px 10px;
   text-shadow: 2px 2px #000;
   color: #FFF;
 }
