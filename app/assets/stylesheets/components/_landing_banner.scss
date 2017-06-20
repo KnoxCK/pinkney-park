@@ -36,6 +36,7 @@
   text-decoration: none;
   width: 200px;
   margin: auto;
+  margin-top: 80px;
   h5 {
     color: white;
     text-decoration: none;
@@ -67,50 +68,15 @@
   display: flex;
   justify-content: center;
 }
-.banner-prop {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488491344/prop_bldet0.jpg');
-  height: 60vh;
-  width: 100%;
-  background-size: cover !important;
-  background-position: center;
-  z-index: 0;
-  position: fixed;
-}
-.banner-events {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488491484/DSC02838_copy_hqbavd.jpg');
-  height: 60vh;
-  width: 100%;
-  background-size: cover !important;
-  background-position: center;
-  z-index: 0;
-  position: fixed;
-}
-.banner-stay {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492040/stay_wxmhc2.jpg');
-  height: 60vh;
-  width: 100%;
-  background-size: cover !important;
-  background-position: center;
-  z-index: 0;
-  position: fixed;
-}
-.banner-contact {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488566121/cont_wcjebz.jpg');
-  height: 60vh;
-  width: 100%;
-  background-size: cover !important;
-  background-position: center;
-  z-index: 0;
-  position: fixed;
-}
-.banner-small {
-  background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482519/cricket-banner_kwngc2.jpg');
-  height: 40vh;
-  width: 100%;
-  background-size: cover !important;
-  z-index: 0;
-  position: fixed;
-}
+
+// .banner-small {
+//   background-image: url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488482519/cricket-banner_kwngc2.jpg');
+//   height: 40vh;
+//   width: 100%;
+//   background-size: cover !important;
+//   z-index: 0;
+//   position: fixed;
+
 
 // html {
 //     position: relative;
@@ -166,32 +132,54 @@
   background-size: cover;
 }
 .item:nth-child(2) {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1488492472/landing-box1_acfknb.jpg');
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1497953882/DSC02850_uxi4xr.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-// .item:nth-child(3) {
-//     background: url();
-//     -webkit-background-size: cover;
-//     -moz-background-size: cover;
-//     -o-background-size: cover;
-//     background-size: cover;
-// }
+.item:nth-child(3) {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1497953877/DSC04255_gqrulb.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(4) {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1497961381/Shows_the_setting_mehv5g.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(5) {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1497961389/West_Lodge_-_entrance_lq0pg2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(6) {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1497953852/DSC02926_wkfvhw.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .carousel {
   z-index: -99;
 }
 
 .carousel .item {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
 }
 .title {
   text-align: center;
   height: 100vh;
-  margin-top: 20px;
+  margin-top: 190px;
   padding: 90px 10px;
   text-shadow: 2px 2px #000;
   color: #FFF;

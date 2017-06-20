@@ -28,17 +28,19 @@
 </div>
 <!-- </div> -->
 <div class="green-line" id="welcome"></div>
-<div class="landing-intro-text text-center padded container">
-	<h1 class="landing-header fadeIn hidden">Welcome to Pinkney Park</h1>
-	<p class="landing-para fadeIn hidden">Pinkney Park is a beautiful private home and estate near the village of Sherston on the Wiltshire/Gloucestershire border. Sitting in a stunning parkland setting, Pinkney Park is ideally situated in the Cotswolds Area of Outstanding Natural Beauty and has been hosting events in all shapes and sizes for 30 years.
-	<br></br>
-	The house and its accommodation are available for both corporate and private entertaining along with the surrounding parkland making the perfect backdrop for your own exclusive event. We have held events that range from meetings to weddings, clay pigeon shooting to team building, birthday parties to seminars and go-karting to B&B’s.
-	<br></br>
-	We aim to be as flexible as possible to your every need and would be delighted to discuss any ideas you might have.
-	</p>
-</div>
+<div class="landing-text-wrapper">
+	<div class="landing-intro-text padded">
+		<h1 class="landing-header fadeIn text-center hidden">Welcome to Pinkney Park</h1>
+		<p class="landing-para fadeIn text-center hidden">Pinkney Park is a beautiful private home and estate near the village of Sherston on the Wiltshire/Gloucestershire border. Sitting in a stunning parkland setting, Pinkney Park is ideally situated in the Cotswolds Area of Outstanding Natural Beauty and has been hosting events in all shapes and sizes for 30 years.
+		<br></br>
+		The house and its accommodation are available for both corporate and private entertaining along with the surrounding parkland making the perfect backdrop for your own exclusive event. We have held events that range from meetings to weddings, clay pigeon shooting to team building, birthday parties to seminars and go-karting to B&B’s.
+		<br></br>
+		We aim to be as flexible as possible to your every need and would be delighted to discuss any ideas you might have.
+		</p>
+	</div>
+</div> 
 <div class="landing-wrapper">
-	<div class="landing-boxes-all fadeIn hidden">
+	<div class="landing-boxes-all fadeIn">
 		<div class="landing-boxes text-center">
 			<div class="landing-box landing-box-top-row activity-first-row">
 				<%= link_to events_path(:anchor => "activity-days") do %>
@@ -70,6 +72,8 @@
 					</div>
 				<% end %>
 			</div>
+		</div>
+		<div class="landing-boxes text-center">
 			<div class="landing-box">
 				<%= link_to stay_path do %>
 					<div class="landing-box-image">
@@ -99,8 +103,8 @@
 					</div>
 				<% end %>
 			</div>
-
-
+		</div>
+		<div class="landing-boxes text-center">
 			<div class="landing-box">
 				<%= link_to properties_path do %>
 					<div class="landing-box-image">
