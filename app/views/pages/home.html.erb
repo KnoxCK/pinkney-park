@@ -1,6 +1,6 @@
 <%= render 'shared/navbar_landing' %>
 <!-- <div class="banner-landing banner-image"> -->
-<div class="carousel slide carousel-fade" data-ride="carousel">
+<div class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -46,7 +46,7 @@
 		We aim to be as flexible as possible to your every need and would be delighted to discuss any ideas you might have.
 		</p>
 	</div>
-</div> 
+</div>
 <div class="landing-wrapper">
 	<div class="landing-boxes-all fadeIn">
 		<div class="landing-boxes text-center">
@@ -161,6 +161,8 @@
 
 <%= content_for :after_js do %>
 <script>
+$(document).ready(function(){
   $('.carousel').carousel();
+});
 </script>
 <% end %>
