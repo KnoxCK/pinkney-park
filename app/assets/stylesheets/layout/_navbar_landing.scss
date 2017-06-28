@@ -19,7 +19,7 @@
   left: 0px;
   top: 0px;
   z-index: 1001;
-  width: 100%;
+  width: 100vw;
 }
 
 /* Navbar logo */
@@ -61,7 +61,7 @@
   justify-content: center;
   background-color: #1F363D;
   border-color: #1F363D;
-  max-width: 100%;
+  max-width: 100vw;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.3);
 }
 .navbar-pinkneypark-link-scroll {

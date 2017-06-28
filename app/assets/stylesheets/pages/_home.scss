@@ -20,7 +20,7 @@
 	p {
 		color: #395B5B;
 		text-align: center;
-		width: 900px;
+		width: 950px;
 		margin-bottom: 80px;
 	}
 }
@@ -134,12 +134,11 @@
 // Screen sizes
 @media only screen and (max-width:1500px){
 	.about-boxes {
-		flex-wrap: wrap;
-		flex-direction: column-reverse;
 		align-items: center;
 	}
 	.about-image {
-		height: 20vh;
+		height: auto;
+		width: 500px;
 	}
 	.about-box {
 		padding-left: 0px;
@@ -148,14 +147,31 @@
 			padding: 30px 80px;
 		}
 	}
-	.about-image {
-		height: auto;
-		width: 80%;
-	}
 }
 @media only screen and (max-width:1397px){
 	.landing-box-top-row img {
 		margin-bottom: 0px;
+	}
+	.landing-intro-text {
+		p {
+			color: #395B5B;
+			text-align: center;
+			width: 85%;
+			margin-bottom: 80px;
+		}
+	}
+}
+@media only screen and (max-width:1269px){
+	.banner-content {
+		margin-top: 8vh;
+	}
+}
+@media only screen and (max-width:1260px){
+	.landing-box-image img {
+		width: 300px;
+	}
+	.landing-box-text {
+    width: 300px;
 	}
 }
 @media only screen and (max-width:1252px){
@@ -171,23 +187,29 @@
 		padding-right: 40px;
 	}
 }
-@media only screen and (max-width:993px){
-	.landing-boxes {
-		margin: 0 20px 15px 20px;
-	}
-	.cricket-second-row img {
-		margin-top: 0;
+@media only screen and (max-width:996px){
+	.landing-box-image img {
+		width: 250px;
 	}
 	.landing-box-text {
-		width: 40vw;
+    	width: 250px;
+    	height: 122px;
 	}
-	.landing-box-image img {
-		width: 40vw;
+	.about-boxes {
+		align-items: center;
+		flex-direction: column-reverse;
+	}
+	.about-box p {
+    	padding: 30px 10px;
 	}
 }
 @media only screen and (max-width:910px){
 	.box-text-small-screen {
 		padding: 30px 80px;
+	}
+	.landing-para {
+		width: auto;
+    	padding-bottom: 20px;
 	}
 }
 @media only screen and (max-width:738px){
@@ -217,10 +239,18 @@
 	.about  {
 		padding: 20px 0 0;
 	}
-	.about-box {
-		p {
-			padding: 30px 30px;
-		}
+	.about-box p {
+    	width: 80%;
+		padding: 30px 10px;
+	}
+}
+@media only screen and (max-width:533px){ 
+	.about-image {
+		height: auto;
+		width: 80%;
+	}
+	.about {
+		padding: 85px 10px 0 10px;
 	}
 }
 
