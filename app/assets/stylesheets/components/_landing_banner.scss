@@ -130,6 +130,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-width: 100vw;
 }
 .item:nth-child(2) {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.2) 80%), url('http://res.cloudinary.com/dcszu7vjv/image/upload/v1497953882/DSC02850_uxi4xr.jpg');
@@ -190,4 +191,9 @@
   padding: 90px 10px;
   text-shadow: 2px 2px #000;
   color: #FFF;
+}
+@media only screen and (max-width:1275px){
+  .banner-content {
+    margin-top: 40px;
+  }
 }
