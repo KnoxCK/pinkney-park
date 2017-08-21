@@ -161,11 +161,6 @@
 		}
 	}
 }
-@media only screen and (max-width:1269px){
-	.banner-content {
-		margin-top: 8vh;
-	}
-}
 @media only screen and (max-width:1260px){
 	.landing-box-image img {
 		width: 300px;
@@ -244,7 +239,7 @@
 		padding: 30px 10px;
 	}
 }
-@media only screen and (max-width:533px){ 
+@media only screen and (max-width:533px){
 	.about-image {
 		height: auto;
 		width: 80%;
@@ -252,5 +247,11 @@
 	.about {
 		padding: 85px 10px 0 10px;
 	}
+  .banner-content {
+    margin-top: 0;
+  }
+  .title {
+    padding: 100px 10px 90px 10px;
+  }
 }
 

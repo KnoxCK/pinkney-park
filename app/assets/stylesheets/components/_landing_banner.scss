@@ -187,13 +187,9 @@
 .title {
   text-align: center;
   height: 100vh;
-  margin-top: 190px;
-  padding: 90px 10px;
+  // margin-top: 190px;
+  padding: 130px 10px 90px 10px;
   text-shadow: 2px 2px #000;
   color: #FFF;
 }
-@media only screen and (max-width:1275px){
-  .banner-content {
-    margin-top: 40px;
-  }
-}
+
