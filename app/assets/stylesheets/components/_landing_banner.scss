@@ -31,28 +31,38 @@
 // }
 .banner-content {
   height: 420px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .enter {
   text-decoration: none;
   width: 200px;
   margin: auto;
   margin-top: 80px;
-  h5 {
+  p {
     color: white;
     text-decoration: none;
-    border: 1px solid transparent;
-    padding: 10px;
+    margin-left: 4px;
+    margin-bottom: 0px;
   }
 }
 .enter:hover {
-  h5 {
-    border: 1px solid white;
-    padding: 10px;
+  opacity: 0.6;
+  p {
     text-decoration: none;
   }
   a {
     text-decoration: none;
   }
+}
+.title {
+  text-align: center;
+  height: 100vh;
+  // margin-top: 190px;
+  padding: 130px 10px 0px 10px;
+  color: #FFF;
+  letter-spacing: 4px;
 }
 .arrow-down {
   width: 80px;
@@ -184,12 +194,3 @@
   height: 100vh;
   background-position: center;
 }
-.title {
-  text-align: center;
-  height: 100vh;
-  // margin-top: 190px;
-  padding: 130px 10px 90px 10px;
-  text-shadow: 2px 2px #000;
-  color: #FFF;
-}
-
